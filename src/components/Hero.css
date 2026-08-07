@@ -1,0 +1,39 @@
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loading-bar {
+    width: 170px;
+    height: 24px;
+    background: #0C0C0C;
+    border: 1px solid #0C0C0C;
+    border-radius: 6px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.loading-bar-track {
+    width: 100%;
+    height: 100%;
+    background: #828282;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.loading-bar-fill {
+    width: 90%;
+    height: 100%;
+    background: linear-gradient(90deg, #5AF2E0, #52FBBC, #A0FED3, #BAFFDF);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading-bar-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #111;
+}
