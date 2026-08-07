@@ -1,0 +1,54 @@
+.skill-icon {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 24px;
+    font-size: 80px; /* Icon-Größe */
+    color: #fff;
+}
+
+.tooltip {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+    background: linear-gradient(90deg, #5AF2E0, #52FBBC, #A0FED3);
+    color: #111;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.skill-icon:hover .tooltip {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+.marquee {
+    overflow: hidden;
+    padding-bottom: 80px; /* Platz für Tooltip einplanen */
+    background: #111;
+    padding: 24px 0;
+    border-radius: 12px;
+}
+
+.marquee-track {
+    display: flex;
+    gap: 24px;
+    width: max-content;
+    animation: scroll 25s linear infinite;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
