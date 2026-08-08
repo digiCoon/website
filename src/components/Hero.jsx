@@ -1,5 +1,4 @@
 import './Hero.css'
-import loading from '../assets/loading-bar.png'
 
 function Hero() {
     return (
