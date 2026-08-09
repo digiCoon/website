@@ -4,26 +4,26 @@ function Projects() {
     const projects = [
         {
             name: 'digiCoon. building things',
-            description: 'Diese eigene Portfolio-Seite, gebaut mit React & Vite.',
-            tech: 'React · Vite · CSS',
+            description: 'portfolio-seite, gebaut mit react & vite.',
+            tech: 'react · vite · css',
             link: 'https://github.com/digiCoon/website'
         },
         {
             name: 'measy',
-            description: 'App zum unkomplizierten Verabreden mit Freunden. Teamprojekt, meine Rolle: Datenbank.',
-            tech: 'Python',
+            description: 'app zum unkomplizierten verabreden mit freunden. teamprojekt, meine rolle: datenbank.',
+            tech: 'python · sqlalchemy',
             link: 'https://github.com/digiCoon/measy'
         },
         {
             name: 'todo-list',
-            description: 'To-do-App mit Unterstützung für wiederkehrende Aufgaben.',
-            tech: 'Python',
+            description: 'to-do-app mit unterstützung für wiederkehrende aufgaben.',
+            tech: 'python',
             link: 'https://github.com/digiCoon/todo-list'
         },
         {
             name: 'lottoZiehung',
-            description: 'Konsolenprogramm, das eine Lottoziehung simuliert und die Trefferzahl auswertet.',
-            tech: 'Java',
+            description: 'konsolenprogramm, das eine lottoziehung simuliert und die trefferzahl auswertet.',
+            tech: 'java',
             link: 'https://github.com/digiCoon/lottoZiehung'
         }
     ]
@@ -37,7 +37,7 @@ function Projects() {
                     <span className="project-tech">{project.tech}</span>
                     <p>{project.link && (
                         <a href={project.link} target="_blank" rel="noopener noreferrer">
-                            GitHub ↗
+                            github ↗
                         </a>
                     )}</p>
                 </div>

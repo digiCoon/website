@@ -19,7 +19,7 @@ function Contact() {
     return (
         <section id="contact">
             <form onSubmit={handleSubmit}>
-                <label>Name
+                <label>name
                     <input
                         type="text"
                         name="name"
@@ -29,7 +29,7 @@ function Contact() {
                     />
                 </label>
                 <fieldset>
-                    <legend>Geschlecht</legend>
+                    <legend>geschlecht</legend>
                     <label>
                         <input
                             type="radio"
@@ -64,7 +64,7 @@ function Contact() {
                         divers
                     </label>
                 </fieldset>
-                <label>E-Mail
+                <label>e-mail
                     <input
                         type="email"
                         name="email"
@@ -72,7 +72,7 @@ function Contact() {
                         onChange={(e) => setEmail(e.target.value)}
                         required />
                 </label>
-                <label>Nachricht
+                <label>nachricht
                     <textarea
                         name="message"
                         rows="5"
@@ -82,7 +82,7 @@ function Contact() {
                     </textarea>
                 </label>
                 <div style={{ display: 'none' }}>
-                    <label>Trash panda trap</label>
+                    <label>trash panda trap</label>
                     <input
                         name="trash_panda_trap"
                         tabIndex="-1"
@@ -91,7 +91,7 @@ function Contact() {
                         onChange={(e) => setTrash_panda_trap(e.target.value)}
                     />
                 </div>
-                <input type="submit" value="Abschicken" />
+                <input type="submit" value="abschicken" />
             </form>
         </section>
     )

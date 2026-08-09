@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     margin-right: 24px;
-    font-size: 80px; /* Icon-Größe */
+    font-size: 80px; /* icon size */
     color: #fff;
 }
 
@@ -32,7 +32,7 @@
 .marquee {
     overflow: hidden;
     padding-bottom: 80px; /* Platz für Tooltip einplanen */
-    background: #111;
+    background: var(--bg);
     padding: 24px 0;
     border-radius: 12px;
 }
