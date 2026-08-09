@@ -1,5 +1,22 @@
 import './Legal.css'
 
+function ObfuscatedAddress() {
+    const street = 'Feldstraße 21'
+    const city = '12207 Berlin'
+    return (
+        <>
+            {street}<br />
+            {city}
+        </>
+    )
+}
+
+function ObfuscatedEmail() {
+    const user = 'jries'
+    const domain = 'js-ries.de'
+    return <span>{user}@{domain}</span>
+}
+
 function Legal() {
     return (
         <section id="legal">
@@ -10,15 +27,14 @@ function Legal() {
             <h3>Angaben gemäß § 5 TMG und § 18 Abs. 2 MStV</h3>
             <p>
                 Jessica S. Ries<br />
-                Feldstraße 21<br />
-                12207 Berlin<br />
+                <ObfuscatedAddress />
+                <br />
                 Deutschland
             </p>
 
             <h3>Kontakt</h3>
             <p>
-                Telefon: 01775143418<br />
-                E-Mail: jries@js-ries.de
+                E-Mail: <ObfuscatedEmail />
             </p>
 
             <h3>Haftungsausschluss</h3>
@@ -31,11 +47,13 @@ function Legal() {
 
             <h4>Haftung für Links</h4>
             <p>Diese Website enthält gegebenenfalls Links zu externen Websites Dritter, auf deren Inhalte kein Einfluss
-                besteht. Deshalb kann für diese fremden Inhalte auch keine Gewähr übernommen werden. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.</p>
+                besteht. Deshalb kann für diese fremden Inhalte auch keine Gewähr übernommen werden. Für die Inhalte der
+                verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.</p>
 
             <h4>Urheberrecht</h4>
             <p>Die durch mich erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die
-                Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung der jeweiligen Autorin bzw. des jeweiligen Erstellers.</p>
+                Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des
+                Urheberrechtes bedürfen der schriftlichen Zustimmung der jeweiligen Autorin bzw. des jeweiligen Erstellers.</p>
 
             <h2>Datenschutzerklärung</h2>
 
@@ -47,10 +65,16 @@ function Legal() {
                 hole ich generell eine Einwilligung der betroffenen Person ein.</p>
 
             <p>Die Verarbeitung personenbezogener Daten, beispielsweise des Namens, der Anschrift, E-Mail-Adresse oder
-                Telefonnummer einer betroffenen Person, erfolgt stets im Einklang mit der Datenschutz-Grundverordnung und den geltenden landesspezifischen Datenschutzbestimmungen. Mittels dieser Datenschutzerklärung möchte ich Sie über Art, Umfang und Zweck der von mir erhobenen, genutzten und verarbeiteten personenbezogenen Daten informieren. Ferner werden betroffene Personen mittels dieser Datenschutzerklärung über die ihnen zustehenden Rechte aufgeklärt.</p>
+                Telefonnummer einer betroffenen Person, erfolgt stets im Einklang mit der Datenschutz-Grundverordnung und
+                den geltenden landesspezifischen Datenschutzbestimmungen. Mittels dieser Datenschutzerklärung möchte ich Sie
+                über Art, Umfang und Zweck der von mir erhobenen, genutzten und verarbeiteten personenbezogenen Daten informieren.
+                Ferner werden betroffene Personen mittels dieser Datenschutzerklärung über die ihnen zustehenden Rechte aufgeklärt.</p>
 
             <p>Ich habe als für die Verarbeitung Verantwortliche zahlreiche technische und organisatorische Maßnahmen
-                umgesetzt, um einen möglichst lückenlosen Schutz der über diese Internetseite verarbeiteten personenbezogenen Daten sicherzustellen. Dennoch können internetbasierte Datenübertragungen grundsätzlich Sicherheitslücken aufweisen, sodass ein absoluter Schutz nicht gewährleistet werden kann. Aus diesem Grund steht es jeder betroffenen Person frei, personenbezogene Daten auch auf alternativen Wegen, beispielsweise telefonisch, an mich zu übermitteln.</p>
+                umgesetzt, um einen möglichst lückenlosen Schutz der über diese Internetseite verarbeiteten personenbezogenen
+                Daten sicherzustellen. Dennoch können internetbasierte Datenübertragungen grundsätzlich Sicherheitslücken aufweisen,
+                sodass ein absoluter Schutz nicht gewährleistet werden kann. Aus diesem Grund steht es jeder betroffenen Person
+                frei, personenbezogene Daten auch auf alternativen Wegen, beispielsweise telefonisch, an mich zu übermitteln.</p>
 
             <h3>1. Begriffsbestimmungen</h3>
             <p>Diese Datenschutzerklärung beruht auf den Begrifflichkeiten, die durch den Europäischen Richtlinien- und
@@ -73,7 +97,10 @@ function Legal() {
 
             <h4>c) Verarbeitung</h4>
             <p>Verarbeitung ist jeder mit oder ohne Hilfe automatisierter Verfahren ausgeführte Vorgang oder jede solche
-                Vorgangsreihe im Zusammenhang mit personenbezogenen Daten wie das Erheben, das Erfassen, die Organisation, das Ordnen, die Speicherung, die Anpassung oder Veränderung, das Auslesen, das Abfragen, die Verwendung, die Offenlegung durch Übermittlung, Verbreitung oder eine andere Form der Bereitstellung, den Abgleich oder die Verknüpfung, die Einschränkung, das Löschen oder die Vernichtung.</p>
+                Vorgangsreihe im Zusammenhang mit personenbezogenen Daten wie das Erheben, das Erfassen, die Organisation,
+                das Ordnen, die Speicherung, die Anpassung oder Veränderung, das Auslesen, das Abfragen, die Verwendung,
+                die Offenlegung durch Übermittlung, Verbreitung oder eine andere Form der Bereitstellung, den Abgleich
+                oder die Verknüpfung, die Einschränkung, das Löschen oder die Vernichtung.</p>
 
             <h4>d) Einschränkung der Verarbeitung</h4>
             <p>Einschränkung der Verarbeitung ist die Markierung gespeicherter personenbezogener Daten mit dem Ziel,
@@ -90,7 +117,8 @@ function Legal() {
             <p>Pseudonymisierung ist die Verarbeitung personenbezogener Daten in einer Weise, auf welche die
                 personenbezogenen Daten ohne Hinzuziehung zusätzlicher Informationen nicht mehr einer spezifischen betroffenen
                 Person zugeordnet werden können, sofern diese zusätzlichen Informationen gesondert aufbewahrt werden und
-                technischen und organisatorischen Maßnahmen unterliegen, die gewährleisten, dass die personenbezogenen Daten nicht einer identifizierten oder identifizierbaren natürlichen Person zugewiesen werden.</p>
+                technischen und organisatorischen Maßnahmen unterliegen, die gewährleisten, dass die personenbezogenen Daten
+                nicht einer identifizierten oder identifizierbaren natürlichen Person zugewiesen werden.</p>
 
             <h4>g) Verantwortliche oder für die Verarbeitung Verantwortliche</h4>
             <p>Verantwortliche oder für die Verarbeitung Verantwortliche ist die natürliche oder juristische Person, Behörde,
@@ -250,7 +278,10 @@ function Legal() {
 
             <h4>g) Recht auf Widerspruch</h4>
             <p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien-
-                und Verordnungsgeber gewährte Recht, aus Gründen, die sich aus ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung sie betreffender personenbezogener Daten, die aufgrund von Art. 6 Abs. 1 Buchstaben e oder f DS-GVO erfolgt, Widerspruch einzulegen. Dies gilt auch für ein auf diese Bestimmungen gestütztes Profiling.</p>
+                und Verordnungsgeber gewährte Recht, aus Gründen, die sich aus ihrer besonderen Situation ergeben, jederzeit
+                gegen die Verarbeitung sie betreffender personenbezogener Daten, die aufgrund von Art. 6 Abs. 1 Buchstaben
+                e oder f DS-GVO erfolgt, Widerspruch einzulegen. Dies gilt auch für ein auf diese Bestimmungen gestütztes
+                Profiling.</p>
             <p>Ich verarbeite die personenbezogenen Daten im Falle des Widerspruchs nicht mehr, es sei denn, ich kann
                 zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die den Interessen, Rechten und Freiheiten
                 der betroffenen Person überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder
@@ -272,7 +303,17 @@ function Legal() {
 
             <h3>7. Rechtsgrundlage der Verarbeitung</h3>
             <p>Art. 6 I lit. a DS-GVO dient mir als Rechtsgrundlage für Verarbeitungsvorgänge, bei denen ich eine
-                Einwilligung für einen bestimmten Verarbeitungszweck einhole. Ist die Verarbeitung personenbezogener Daten zur Erfüllung eines Vertrags, dessen Vertragspartei die betroffene Person ist, erforderlich, so beruht die Verarbeitung auf Art. 6 I lit. b DS-GVO. Gleiches gilt für Verarbeitungsvorgänge, die zur Durchführung vorvertraglicher Maßnahmen erforderlich sind. Unterliege ich einer rechtlichen Verpflichtung, durch welche eine Verarbeitung von personenbezogenen Daten erforderlich wird, wie beispielsweise zur Erfüllung steuerlicher Pflichten, so basiert die Verarbeitung auf Art. 6 I lit. c DS-GVO. In seltenen Fällen könnte die Verarbeitung von personenbezogenen Daten erforderlich werden, um lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person zu schützen; dann würde die Verarbeitung auf Art. 6 I lit. d DS-GVO beruhen. Letztlich könnten Verarbeitungsvorgänge auf Art. 6 I lit. f DS-GVO beruhen, sofern die Verarbeitung zur Wahrung eines berechtigten Interesses erforderlich ist, sofern die Interessen, Grundrechte und Grundfreiheiten der betroffenen Person nicht überwiegen.</p>
+                Einwilligung für einen bestimmten Verarbeitungszweck einhole. Ist die Verarbeitung personenbezogener Daten
+                zur Erfüllung eines Vertrags, dessen Vertragspartei die betroffene Person ist, erforderlich, so beruht die
+                Verarbeitung auf Art. 6 I lit. b DS-GVO. Gleiches gilt für Verarbeitungsvorgänge, die zur Durchführung
+                vorvertraglicher Maßnahmen erforderlich sind. Unterliege ich einer rechtlichen Verpflichtung, durch welche
+                eine Verarbeitung von personenbezogenen Daten erforderlich wird, wie beispielsweise zur Erfüllung steuerlicher
+                Pflichten, so basiert die Verarbeitung auf Art. 6 I lit. c DS-GVO. In seltenen Fällen könnte die Verarbeitung
+                von personenbezogenen Daten erforderlich werden, um lebenswichtige Interessen der betroffenen Person oder
+                einer anderen natürlichen Person zu schützen; dann würde die Verarbeitung auf Art. 6 I lit. d DS-GVO
+                beruhen. Letztlich könnten Verarbeitungsvorgänge auf Art. 6 I lit. f DS-GVO beruhen, sofern die Verarbeitung
+                zur Wahrung eines berechtigten Interesses erforderlich ist, sofern die Interessen, Grundrechte und
+                Grundfreiheiten der betroffenen Person nicht überwiegen.</p>
 
             <h3>8. Berechtigte Interessen an der Verarbeitung, die von mir oder einem Dritten verfolgt werden</h3>
             <p>Basiert die Verarbeitung personenbezogener Daten auf Artikel 6 I lit. f DS-GVO, ist mein berechtigtes

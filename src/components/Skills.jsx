@@ -10,131 +10,131 @@ function Skills() {
                 <div className="marquee-track">
                     <span className="skill-icon">
                         <FaPython />
-                        <span className="tooltip">Python</span>
+                        <span className="tooltip">python</span>
                     </span>
                     <span className="skill-icon">
                         <FaJava />
-                        <span className="tooltip">Java</span>
+                        <span className="tooltip">java</span>
                       </span>
                     <span className="skill-icon">
                         <SiJavascript />
-                        <span className="tooltip">JavaScript</span>
+                        <span className="tooltip">javascript</span>
                     </span>
                     <span className="skill-icon">
                         <FaReact />
-                        <span className="tooltip">React.js</span>
+                        <span className="tooltip">react.js</span>
                     </span>
                     <span className="skill-icon">
                         <FaNodeJs />
-                        <span className="tooltip">Node.js</span>
+                        <span className="tooltip">node.js</span>
                     </span>
                     <span className="skill-icon">
                         <SiExpress />
-                        <span className="tooltip">Express.js</span>
+                        <span className="tooltip">express.js</span>
                     </span>
                     <span className="skill-icon">
                         <SiHtml5 />
-                        <span className="tooltip">HTML5</span>
+                        <span className="tooltip">html5</span>
                     </span>
                     <span className="skill-icon">
                         <FaCss3Alt />
-                        <span className="tooltip">CSS3</span>
+                        <span className="tooltip">css3</span>
                     </span>
                     <span className="skill-icon">
                         <SiTailwindcss />
-                        <span className="tooltip">Tailwind CSS</span>
+                        <span className="tooltip">tailwind CSS</span>
                     </span>
                     <span className="skill-icon">
                         <SiMysql />
-                        <span className="tooltip">SQL/NoSQL</span>
+                        <span className="tooltip">sql/nosql</span>
                     </span>
                     <span className="skill-icon">
                         <SiPostgresql />
-                        <span className="tooltip">PostgreSQL</span>
+                        <span className="tooltip">postgresql</span>
                     </span>
                     <span className="skill-icon">
                         <FaLinux />
-                        <span className="tooltip">Linux</span>
+                        <span className="tooltip">linux</span>
                     </span>
                     <span className="skill-icon">
                         <FaGitAlt />
-                        <span className="tooltip">Git</span>
+                        <span className="tooltip">git</span>
                     </span>
                     <span className="skill-icon">
                         <FaGithub />
-                        <span className="tooltip">Github</span>
+                        <span className="tooltip">github</span>
                     </span>
                     <span className="skill-icon">
                         <SiJetbrains />
-                        <span className="tooltip">JetBrains</span>
+                        <span className="tooltip">jetbrains</span>
                     </span>
                     <span className="skill-icon">
                         <BiLogoVisualStudio />
-                        <span className="tooltip">VS Code</span>
+                        <span className="tooltip">vs code</span>
                     </span>
                     <span className="skill-icon">
                         <FaPython />
-                        <span className="tooltip">Python</span>
+                        <span className="tooltip">python</span>
                     </span>
                     <span className="skill-icon">
                         <FaJava />
-                        <span className="tooltip">Java</span>
+                        <span className="tooltip">java</span>
                       </span>
                     <span className="skill-icon">
                         <SiJavascript />
-                        <span className="tooltip">JavaScript</span>
+                        <span className="tooltip">javascript</span>
                     </span>
                     <span className="skill-icon">
                         <FaReact />
-                        <span className="tooltip">React.js</span>
+                        <span className="tooltip">react.js</span>
                     </span>
                     <span className="skill-icon">
                         <FaNodeJs />
-                        <span className="tooltip">Node.js</span>
+                        <span className="tooltip">node.js</span>
                     </span>
                     <span className="skill-icon">
                         <SiExpress />
-                        <span className="tooltip">Express.js</span>
+                        <span className="tooltip">express.js</span>
                     </span>
                     <span className="skill-icon">
                         <SiHtml5 />
-                        <span className="tooltip">HTML5</span>
+                        <span className="tooltip">html5</span>
                     </span>
                     <span className="skill-icon">
                         <FaCss3Alt />
-                        <span className="tooltip">CSS3</span>
+                        <span className="tooltip">css3</span>
                     </span>
                     <span className="skill-icon">
                         <SiTailwindcss />
-                        <span className="tooltip">Tailwind CSS</span>
+                        <span className="tooltip">tailwind CSS</span>
                     </span>
                     <span className="skill-icon">
                         <SiMysql />
-                        <span className="tooltip">SQL/NoSQL</span>
+                        <span className="tooltip">sql/nosql</span>
                     </span>
                     <span className="skill-icon">
                         <SiPostgresql />
-                        <span className="tooltip">PostgreSQL</span>
+                        <span className="tooltip">postgresql</span>
                     </span>
                     <span className="skill-icon">
                         <FaLinux />
-                        <span className="tooltip">Linux</span>
+                        <span className="tooltip">linux</span>
                     </span>
                     <span className="skill-icon">
                         <FaGitAlt />
-                        <span className="tooltip">Git</span>
+                        <span className="tooltip">git</span>
                     </span>
                     <span className="skill-icon">
                         <FaGithub />
-                        <span className="tooltip">Github</span>
+                        <span className="tooltip">github</span>
                     </span>
                     <span className="skill-icon">
                         <SiJetbrains />
-                        <span className="tooltip">JetBrains</span>
+                        <span className="tooltip">jetbrains</span>
                     </span>
                     <span className="skill-icon">
                         <BiLogoVisualStudio />
-                        <span className="tooltip">VS Code</span>
+                        <span className="tooltip">vs code</span>
                     </span>
                 </div>
             </div>
