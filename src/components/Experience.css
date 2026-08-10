@@ -1,6 +1,6 @@
 .experience-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(4, minmax(250px, 1fr));
     gap: 24px;
     padding: 24px;
 }
@@ -8,6 +8,16 @@
 .flip-card {
     perspective: 1000px;
     height: 200px;
+}
+
+.card-type {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 11px;
+    text-transform: uppercase;
+    opacity: 0.6;
+    letter-spacing: 1px;
 }
 
 .flip-card-inner {
@@ -22,20 +32,28 @@
     transform: rotateY(180deg);
 }
 
-.flip-card.education .card-front {
-    background: #1a3a30;
-}
-
 .flip-card.job .card-front {
-    background: #1a2a4a;
+    border: 2px solid transparent;
+    border-image: linear-gradient(90deg, var(--cyan), var(--purple), var(--pink)) 1;
+    box-shadow: 0 0 10px var(--cyan);
 }
 
 .flip-card.education .card-back {
-    background: #14332a;
+    border: 2px solid transparent;
+    border-image: linear-gradient(90deg, var(--pink), var(--purple), var(--cyan)) 1;
+    box-shadow: 0 0 10px var(--pink);
 }
 
 .flip-card.job .card-back {
-    background: #14233d;
+    border: 2px solid transparent;
+    border-image: linear-gradient(90deg, var(--cyan), var(--purple), var(--pink)) 1;
+    box-shadow: 0 0 10px var(--cyan);
+}
+
+.flip-card.education .card-front {
+    border: 2px solid transparent;
+    border-image: linear-gradient(90deg, var(--pink), var(--purple), var(--cyan)) 1;
+    box-shadow: 0 0 10px var(--pink);
 }
 
 .card-front,

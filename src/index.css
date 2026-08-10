@@ -1,9 +1,11 @@
 :root {
   --bg: #12111A;
   --surface: #1E1B2E;
-  --cyan: #00F2FE;
-  --purple: #B026FF;
-  --green: #00FF9D;
+  --cyan: #8CFEFE;
+  --darkcyan: #40FDFA;
+  --purple: #8574FB;
+  --darkpurple: #5D33D4;
+  --pink: #FE27FD;
   --text: #F1F5F9;
   --text-secondary: #94A3B8;
 
@@ -59,7 +61,12 @@ section {
   padding: 80px 5%;
 }
 
-#skills {
-  padding-left: 0;
-  padding-right: 0;
+a {
+  color: var(--darkcyan);
+  text-decoration: none;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+

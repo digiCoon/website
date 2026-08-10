@@ -10,6 +10,13 @@ function Experience() {
             details: ['umschulung mit schwerpunkt python & java', 'webentwicklung, datenbanken, linux & it-security']
         },
         {
+            type: 'education',
+            title: 'fullstack web & app development',
+            company: 'wbs coding school',
+            period: 'mai 24 - sep 24',
+            details: ['17-wöchiges intensiv-bootcamp', 'javascript/react, node.js, sql/nosql, restful apis, git & agile methoden']
+        },
+        {
             type: 'job',
             title: 'digital marketing managerin',
             company: 'retresco gmbh',
@@ -60,17 +67,17 @@ function Experience() {
         },
         {
             type: 'education',
-            title: 'bwl (diplom)',
+            title: 'bwl-studium',
             company: 'universität mannheim',
             period: 'apr 06 - jul 13',
-            details: ['studium der betriebswirtschaftslehre']
+            details: ['studium der betriebswirtschaftslehre (diplom)']
         },
         {
             type: 'job',
             title: 'physio- und lymphtherapeutin',
             company: 'krankengymnastik thiel',
             period: 'mär 06 - mär 07',
-            details: ['physiotherapeutische behandlung und lymphdrainage in der praxis "krankengymnastik thiel"']
+            details: ['phyiotherapie und lymphdrainage in der praxis "krankengymnastik thiel"']
         },
         {
             type: 'education',
@@ -87,6 +94,7 @@ function Experience() {
                     <div key={index} className={`flip-card ${entry.type}`}>
                         <div className="flip-card-inner">
                             <div className="card-front">
+                                <span className="card-type">{entry.type === 'job' ? 'job' : 'study'}</span>
                                 <h3>{entry.company}</h3>
                                 <p>{entry.title}</p>
                                 <span>{entry.period}</span>
