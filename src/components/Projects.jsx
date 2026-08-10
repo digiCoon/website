@@ -1,6 +1,10 @@
+import { useState } from 'react'
+import { FaGithub } from 'react-icons/fa'
 import './Projects.css'
 
 function Projects() {
+    const [activeIndex, setActiveIndex] = useState(0)
+
     const projects = [
         {
             name: 'digiCoon. building things',
@@ -28,20 +32,45 @@ function Projects() {
         }
     ]
 
+    const goPrev = () => {
+        setActiveIndex((activeIndex - 1 + projects.length) % projects.length)
+    }
+
+    const goNext = () => {
+        setActiveIndex((activeIndex + 1) % projects.length) % projects.length
+    }
+
+    const current = projects[activeIndex]
+
     return (
         <section id="projects">
-            {projects.map((project, index) => (
-                <div key={index} className="project-item">
-                    <h3>{project.name}</h3>
-                    <p>{project.description}</p>
-                    <span className="project-tech">{project.tech}</span>
-                    <p>{project.link && (
-                        <a href={project.link} target="_blank" rel="noopener noreferrer">
-                            github ↗
+            <h2>## projekte</h2>
+            <div className="carousel">
+                <button className="carousel-arrow" onClick={goPrev} aria-label="vorheriges projekt">‹</button>
+
+                <div className="carousel-card">
+                    <h3>
+                        <a href={current.link} target="_blank" rel="noopener noreferrer" title="github">
+                            {current.name} <FaGithub /> ↗
                         </a>
-                    )}</p>
+                    </h3>
+                    <p>{current.description}</p>
+                    <span className="carousel-tech">{current.tech}</span>
                 </div>
-            ))}
+
+                <button className="carousel-arrow" onClick={goNext} aria-label="nächstes projekt">›</button>
+            </div>
+
+            <div className="carousel-dots">
+                {projects.map((_, index) => (
+                    <button
+                        key={index}
+                        className={`dot ${index === activeIndex ? 'active' : ''}`}
+                        onClick={() => setActiveIndex(index)}
+                        aria-label={`projekt ${index + 1}`}
+                    />
+                ))}
+            </div>
         </section>
     )
 }
