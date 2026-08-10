@@ -18,10 +18,19 @@
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.2s;
-    background: linear-gradient(90deg, #5AF2E0, #52FBBC, #A0FED3);
-    color: #111;
+    background: var(--surface);
     padding: 4px 8px;
     border-radius: 4px;
+    border: 1px solid transparent;
+    border-image: linear-gradient(90deg, var(--cyan), var(--purple), var(--pink)) 1;
+    box-shadow: 0 0 5px var(--cyan);
+}
+
+.tooltip span {
+    background: linear-gradient(90deg, var(--cyan), var(--purple), var(--pink));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .skill-icon:hover .tooltip {
@@ -31,8 +40,7 @@
 
 .marquee {
     overflow: hidden;
-    padding-bottom: 80px; /* Platz für Tooltip einplanen */
-    background: var(--bg);
+    padding-bottom: 80px;
     padding: 24px 0;
     border-radius: 12px;
 }
@@ -42,6 +50,11 @@
     gap: 24px;
     width: max-content;
     animation: scroll 25s linear infinite;
+}
+
+#skills {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 @keyframes scroll {
