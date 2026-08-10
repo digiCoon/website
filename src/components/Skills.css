@@ -49,12 +49,18 @@
     display: flex;
     gap: 24px;
     width: max-content;
-    animation: scroll 25s linear infinite;
+    animation: scroll 100s linear infinite;
 }
 
 #skills {
     padding-left: 0;
     padding-right: 0;
+}
+
+#skills h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    text-shadow: 0 0 12px var(--cyan);
 }
 
 @keyframes scroll {

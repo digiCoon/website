@@ -6,6 +6,7 @@ import { BiLogoVisualStudio } from "react-icons/bi";
 function Skills() {
     return (
         <section id="skills">
+            <h2># skills</h2>
             <div className="marquee">
                 <div className="marquee-track">
                     <span className="skill-icon">

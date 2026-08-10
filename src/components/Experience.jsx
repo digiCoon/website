@@ -1,6 +1,9 @@
 import './Experience.css'
+import { useState} from 'react';
 
 function Experience() {
+    const [openIndex, setOpenIndex] = useState(null)
+
     const entries = [
         {
             type: 'education',
@@ -87,26 +90,32 @@ function Experience() {
             details: ['staatsexamen zur physiotherapeutin']
         }
     ]
+
+    const toggleEntry = (index) => {
+        setOpenIndex(openIndex === index ? null : index)
+    }
+
     return (
         <section id="experience">
-            <div className="experience-grid">
+            <h2>### erfahrung</h2>
+            <div className="experience-accordion">
                 {entries.map((entry, index) => (
-                    <div key={index} className={`flip-card ${entry.type}`}>
-                        <div className="flip-card-inner">
-                            <div className="card-front">
-                                <span className="card-type">{entry.type === 'job' ? 'job' : 'study'}</span>
-                                <h3>{entry.company}</h3>
-                                <p>{entry.title}</p>
-                                <span>{entry.period}</span>
-                            </div>
-                            <div className="card-back">
+                    <div key={index} className={`accordion-item ${entry.type} ${openIndex === index ? 'open' : ''}`}>
+                        <button className="accordion-header" onClick={() => toggleEntry(index)}>
+                            <span className="accordion-period">{entry.period}</span>
+                            <span className="accordion-title">{entry.title}</span>
+                            <span className="card-type">{entry.type === 'job' ? 'job' : 'study'}</span>
+                        </button>
+                        {openIndex === index && (
+                            <div className="accordion-content">
+                                <p className="accordion-company">{entry.company}</p>
                                 <ul>
                                     {entry.details.map((detail, i) => (
                                         <li key={i}>{detail}</li>
                                     ))}
                                 </ul>
                             </div>
-                        </div>
+                        )}
                     </div>
                 ))}
             </div>
