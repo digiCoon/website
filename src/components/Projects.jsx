@@ -44,7 +44,7 @@ function Projects() {
 
     return (
         <section id="projects">
-            <h2>## projekte</h2>
+            <h2>#projekte</h2>
             <div className="carousel">
                 <button className="carousel-arrow" onClick={goPrev} aria-label="vorheriges projekt">‹</button>
 
