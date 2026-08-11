@@ -1,5 +1,5 @@
 #experience {
-    padding: 80px 5%;
+    padding: 80px 5% 40px;
 }
 
 #experience h2 {
@@ -8,79 +8,98 @@
     text-shadow: 0 0 12px var(--cyan);
 }
 
-.experience-accordion {
-    max-width: 800px;
+.experience-zigzag {
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 36px;
 }
 
-.accordion-item {
-    border: 1px solid var(--text-secondary);
-    border-radius: 8px;
-    overflow: hidden;
-    background: var(--surface);
+.zigzag-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    padding-bottom: 28px;
 }
 
-.accordion-item.open {
-    border-image: linear-gradient(90deg, var(--cyan), var(--purple), var(--pink)) 1;
+.zigzag-item:not(:last-child) {
+    position: relative;
 }
 
-.accordion-header {
+.zigzag-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    left: -100px;
+    right: -100px;
+    bottom: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--cyan), var(--purple), var(--pink));
+}
+
+.zigzag-item.side-right .zigzag-content {
+    grid-column: 2;
+    justify-self: start;
+}
+
+.zigzag-item.side-left .zigzag-content {
+    grid-column: 1;
+    justify-self: end;
+    text-align: right;
+    align-items: flex-end;
+}
+
+.zigzag-content {
     width: 100%;
+    max-width: 600px;
     display: flex;
-    align-items: center;
-    gap: 16px;
-    padding: 16px 20px;
-    background: none;
-    border: none;
-    color: var(--text);
-    font-family: var(--sans);
-    font-size: 15px;
+    flex-direction: column;
     text-align: left;
-    cursor: pointer;
+    align-items: flex-start;
 }
 
-.accordion-period {
+.zigzag-period {
     color: var(--text-secondary);
     font-size: 13px;
-    min-width: 100px;
+    margin-bottom: 6px;
 }
 
-.accordion-title {
-    flex: 1;
+.zigzag-title {
+    font-size: 17px;
     font-weight: 600;
+    margin-bottom: 4px;
 }
 
-.card-type {
-    display: inline-block;
-    font-size: 11px;
-    text-transform: uppercase;
-    padding: 2px 8px;
-    border-radius: 4px;
-    background: var(--bg);
-    color: var(--cyan);
-    letter-spacing: 1px;
-}
-
-.accordion-content {
-    padding: 0 20px 20px;
-}
-
-.accordion-company {
+.zigzag-company {
     color: var(--text-secondary);
-    font-style: italic;
-    margin-bottom: 8px;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 
-.accordion-content ul {
+.zigzag-details {
     list-style: none;
-    padding: 0;
+    padding-left: 0;
     margin: 0;
 }
 
-.accordion-content li {
-    margin-bottom: 6px;
+.zigzag-details li {
+    font-size: 14px;
     color: var(--text);
+    margin-bottom: 4px;
+}
+
+@media (max-width: 700px) {
+    .zigzag-item {
+        grid-template-columns: 1fr;
+    }
+
+    .zigzag-item.side-right .zigzag-content,
+    .zigzag-item.side-left .zigzag-content {
+        grid-column: 1;
+        justify-self: start;
+    }
+
+    .zigzag-content {
+        max-width: 100%;
+    }
 }

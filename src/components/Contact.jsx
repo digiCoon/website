@@ -19,7 +19,7 @@ function Contact() {
 
     return (
         <section id="contact">
-            <h2>#### kontakt</h2>
+            <h2>#kontakt</h2>
             <form onSubmit={handleSubmit}>
                 <div className="form-top">
                     <label>name
