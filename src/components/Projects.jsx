@@ -1,75 +1,82 @@
 import { useState } from 'react'
-import { FaGithub } from 'react-icons/fa'
 import './Projects.css'
 
 function Projects() {
-    const [activeIndex, setActiveIndex] = useState(0)
-
     const projects = [
         {
+            id: 'digicoon',
             name: 'digiCoon. building things',
-            description: 'portfolio-seite, gebaut mit react & vite.',
+            description: 'portfolio-seite, gebaut mit react & vite. eigenes design, responsive, mit interaktiven elementen wie diesem terminal.',
             tech: 'react · vite · css',
             link: 'https://github.com/digiCoon/website'
         },
         {
+            id: 'measy',
             name: 'measy',
-            description: 'app zum unkomplizierten verabreden mit freunden. teamprojekt, meine rolle: datenbank.',
-            tech: 'python · sqlalchemy',
+            description: 'app zum unkomplizierten verabreden mit freunden. teamprojekt aus der umschulung, meine rolle: datenbank & backend-logik.',
+            tech: 'flask · sqlalchemy · sqlite · bootstrap',
             link: 'https://github.com/digiCoon/measy'
         },
         {
+            id: 'todo-list',
             name: 'todo-list',
-            description: 'to-do-app mit unterstützung für wiederkehrende aufgaben.',
+            description: 'to-do-app mit wiederkehrenden aufgaben. aktuell phase 1 von 7 (cli fertig, persistenz & api als nächstes).',
             tech: 'python',
             link: 'https://github.com/digiCoon/todo-list'
         },
         {
+            id: 'lottoziehung',
             name: 'lottoZiehung',
-            description: 'konsolenprogramm, das eine lottoziehung simuliert und die trefferzahl auswertet.',
+            description: 'konsolenprogramm, das eine lottoziehung simuliert. 6 zahlen ziehen, vergleichen, treffer auswerten.',
             tech: 'java',
             link: 'https://github.com/digiCoon/lottoZiehung'
         }
     ]
 
-    const goPrev = () => {
-        setActiveIndex((activeIndex - 1 + projects.length) % projects.length)
-    }
-
-    const goNext = () => {
-        setActiveIndex((activeIndex + 1) % projects.length) % projects.length
-    }
-
-    const current = projects[activeIndex]
+    const [activeId, setActiveId] = useState(projects[0].id)
+    const active = projects.find(p => p.id === activeId)
 
     return (
         <section id="projects">
             <h2>#projekte</h2>
-            <div className="carousel">
-                <button className="carousel-arrow" onClick={goPrev} aria-label="vorheriges projekt">‹</button>
-
-                <div className="carousel-card">
-                    <h3>
-                        <a href={current.link} target="_blank" rel="noopener noreferrer" title="github">
-                            {current.name} <FaGithub /> ↗
-                        </a>
-                    </h3>
-                    <p>{current.description}</p>
-                    <span className="carousel-tech">{current.tech}</span>
+            <div className="terminal">
+                <div className="terminal-titlebar">
+                    <span className="terminal-path">jessica@digicoon:~/projects$</span>
                 </div>
 
-                <button className="carousel-arrow" onClick={goNext} aria-label="nächstes projekt">›</button>
-            </div>
+                <div className="terminal-body">
+                    <div className="terminal-line">
+                        <span className="prompt">$</span> ls
+                    </div>
 
-            <div className="carousel-dots">
-                {projects.map((_, index) => (
-                    <button
-                        key={index}
-                        className={`dot ${index === activeIndex ? 'active' : ''}`}
-                        onClick={() => setActiveIndex(index)}
-                        aria-label={`projekt ${index + 1}`}
-                    />
-                ))}
+                    <div className="terminal-list">
+                        {projects.map(p => (
+                            <button
+                                key={p.id}
+                                className={`terminal-item ${p.id === activeId ? 'active' : ''}`}
+                                onClick={() => setActiveId(p.id)}
+                            >
+                                {p.id}
+                            </button>
+                        ))}
+                    </div>
+
+                    <div className="terminal-line">
+                        <span className="prompt">$</span> cat {active.id}
+                    </div>
+
+                    <div className="terminal-output">
+                        <h3>{active.name}</h3>
+                        <p>{active.description}</p>
+                        <span className="terminal-tech">{active.tech}</span>
+                    </div>
+                    <div className="terminal-line terminal-link-line">
+                        <span className="prompt">$</span> open{' '}
+                        <a href={active.link} target="_blank" rel="noopener noreferrer" className="terminal-link">
+                            github
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
     )

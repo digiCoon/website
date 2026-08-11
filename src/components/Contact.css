@@ -93,11 +93,12 @@ form textarea {
 .gender-row label {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 1px;
+    font-size: 14px;
 }
 
 form input[type="radio"] {
-    accent-color: var(--cyan);
+    accent-color: var(--pink);
     width: 16px;
     height: 16px;
 }
@@ -110,6 +111,7 @@ input[type="submit"] {
     border-radius: 6px;
     padding: 12px 32px;
     color: var(--bg);
+    font-size: 22px;
     font-weight: 600;
     cursor: pointer;
     transition: box-shadow 0.2s, transform 0.2s;
