@@ -1,16 +1,34 @@
-# React + Vite
+# digiCoon — Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+My personal portfolio site, built while training as a Fachinformatikerin für Anwendungsentwicklung (application developer). Built with React and Vite.
 
-Currently, two official plugins are available:
+## Why This Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I wanted a portfolio that actually shows what I can do instead of just listing it — an interactive experience section, a terminal-style project browser, that kind of thing. Architecture, layout decisions, and content are mine.
 
-## React Compiler
+**A note on how this was built:** I worked through the frontend with Claude (Anthropic's AI) as a sparring partner, not a code generator. I made the design decisions — layout, content, what goes where — and implemented most of it myself; Claude helped debug, suggested alternative approaches when something wasn't working, and wrote some of the more repetitive CSS/JSX after we'd agreed on the direction together.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the Oxlint configuration
+- React
+- Vite
+- CSS (no framework)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Structure
+
+- `Hero` — intro, name, tagline
+- `Skills` — scrolling tech stack marquee
+- `Projects` — terminal-style project browser
+- `Experience` — education & work history
+- `Contact` — contact form
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+## License
+
+MIT — see [LICENSE](./LICENSE).
