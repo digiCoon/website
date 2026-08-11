@@ -9,7 +9,7 @@
 }
 
 .experience-zigzag {
-    max-width: 1000px;
+    max-width: 1150px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -30,8 +30,8 @@
 .zigzag-item:not(:last-child)::after {
     content: '';
     position: absolute;
-    left: -100px;
-    right: -100px;
+    left: -90px;
+    right: -90px;
     bottom: 0;
     height: 2px;
     background: linear-gradient(90deg, var(--cyan), var(--purple), var(--pink));
@@ -60,19 +60,19 @@
 
 .zigzag-period {
     color: var(--text-secondary);
-    font-size: 13px;
+    font-size: 15px;
     margin-bottom: 6px;
 }
 
 .zigzag-title {
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 4px;
 }
 
 .zigzag-company {
     color: var(--text-secondary);
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 10px;
 }
 
@@ -83,7 +83,7 @@
 }
 
 .zigzag-details li {
-    font-size: 14px;
+    font-size: 15px;
     color: var(--text);
     margin-bottom: 4px;
 }

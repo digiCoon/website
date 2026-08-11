@@ -1,5 +1,5 @@
 #projects {
-    padding: 80px 5%;
+    padding: 80px 5% 40px;
 }
 
 #projects h2 {
@@ -8,91 +8,141 @@
     text-shadow: 0 0 12px var(--cyan);
 }
 
-.carousel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-    max-width: 700px;
+.terminal {
+    max-width: 1100px;
     margin: 0 auto;
-}
-
-.carousel-arrow {
-    background: none;
-    border: 1px solid var(--text-secondary);
-    border-radius: 50%;
-    width: 44px;
-    height: 44px;
-    font-size: 24px;
-    color: var(--text);
-    cursor: pointer;
-    transition: border-color 0.2s, box-shadow 0.2s, color 0.2s;
-    flex-shrink: 0;
-}
-
-.carousel-arrow:hover {
-    border-color: var(--cyan);
-    box-shadow: 0 0 10px var(--cyan);
-    color: var(--cyan);
-}
-
-.carousel-card {
-    flex: 1;
-    padding: 32px;
     border: 1px solid transparent;
     border-image: linear-gradient(90deg, var(--cyan), var(--purple), var(--pink)) 1;
     border-radius: 12px;
     background: var(--surface);
-    text-align: center;
+    overflow: hidden;
+    font-family: 'Courier New', monospace;
 }
 
-.carousel-card h3 {
-    margin-bottom: 12px;
-}
-
-.carousel-card h3 a {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    color: inherit;
-    text-decoration: none;
-    transition: color 0.2s;
-}
-
-.carousel-card h3 a:hover {
-    color: var(--cyan);
-}
-
-.carousel-card p {
-    color: var(--text-secondary);
-    margin-bottom: 16px;
-}
-
-.carousel-tech {
-    display: inline-block;
-    font-size: 13px;
-    color: var(--cyan);
-    letter-spacing: 0.5px;
-}
-
-.carousel-dots {
+.terminal-titlebar {
     display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 24px;
+    align-items: flex-end;
+    padding: 8px 20px 0;
+    background: #0d0d0d;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .dot {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: var(--text-secondary);
-    border: none;
-    cursor: pointer;
-    transition: background 0.2s, box-shadow 0.2s;
 }
 
-.dot.active {
-    background: var(--cyan);
-    box-shadow: 0 0 8px var(--cyan);
+.terminal-path {
+    font-size: 15px;
+    color: var(--cyan);
+    background: var(--surface);
+    padding: 6px 16px;
+    border-radius: 6px 6px 0 0;
+    border-top: 2px solid var(--purple);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.terminal-body {
+    padding: 20px;
+}
+
+.terminal-line {
+    font-size: 16px;
+    color: var(--text-secondary);
+    margin-bottom: 10px;
+}
+
+.prompt {
+    color: var(--cyan);
+    margin-right: 6px;
+}
+
+.terminal-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin: 0 0 16px 20px;
+}
+
+.terminal-item {
+    text-align: left;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 16px;
+    color: var(--text-secondary);
+    padding: 4px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: fit-content;
+    transition: background 0.2s, color 0.2s;
+}
+
+.terminal-item:hover {
+    color: var(--text);
+}
+
+.terminal-item.active {
+    color: var(--cyan);
+    background: rgba(140, 254, 254, 0.08);
+}
+
+.terminal-output {
+    margin: 8px 0 0 20px;
+    padding: 16px;
+    background: var(--bg);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.terminal-output h3 {
+    font-family: var(--heading);
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: var(--text);
+}
+
+.terminal-output p {
+    font-family: var(--sans);
+    font-size: 16px;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.terminal-tech {
+    display: inline-block;
+    font-size: 16px;
+    color: var(--pink);
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+}
+
+.terminal-link-line {
+    margin: 12px 0 0 20px;
+}
+
+.terminal-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--text);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.terminal-link:hover {
+    color: var(--cyan);
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .terminal-body {
+        padding: 16px;
+    }
+
+    .terminal-list,
+    .terminal-output = 10px;
 }

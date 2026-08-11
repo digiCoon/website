@@ -15,7 +15,7 @@ function Skills() {
                     </span>
                     <span className="skill-icon">
                         <FaJava />
-                        <span className="tooltip">java</span>
+                        <span className="tooltip"><span>java</span></span>
                       </span>
                     <span className="skill-icon">
                         <SiJavascript />
@@ -43,7 +43,7 @@ function Skills() {
                     </span>
                     <span className="skill-icon">
                         <SiTailwindcss />
-                        <span className="tooltip"><span>tailwind CSS</span></span>
+                        <span className="tooltip"><span>tailwind css</span></span>
                     </span>
                     <span className="skill-icon">
                         <SiMysql />
@@ -79,7 +79,7 @@ function Skills() {
                     </span>
                     <span className="skill-icon">
                         <FaJava />
-                        <span className="tooltip">java</span>
+                        <span className="tooltip"><span>java</span></span>
                       </span>
                     <span className="skill-icon">
                         <SiJavascript />
@@ -107,7 +107,7 @@ function Skills() {
                     </span>
                     <span className="skill-icon">
                         <SiTailwindcss />
-                        <span className="tooltip"><span>tailwind CSS</span></span>
+                        <span className="tooltip"><span>tailwind css</span></span>
                     </span>
                     <span className="skill-icon">
                         <SiMysql />
