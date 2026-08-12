@@ -4,23 +4,25 @@ My personal portfolio site, built while training as a Fachinformatikerin für An
 
 ## Why This Project
 
-I wanted a portfolio that actually shows what I can do instead of just listing it — an interactive experience section, a terminal-style project browser, that kind of thing. Architecture, layout decisions, and content are mine.
+I wanted a portfolio that actually shows what I can do instead of just listing it — an interactive experience accordion, a project carousel, that kind of thing. Architecture, layout decisions, and content are mine.
 
-**A note on how this was built:** I worked through the frontend with Claude (Anthropic's AI) as a sparring partner, not a code generator. I made the design decisions — layout, content, what goes where — and implemented most of it myself; Claude helped debug, suggested alternative approaches when something wasn't working, and wrote some of the more repetitive CSS/JSX after we'd agreed on the direction together.
+**A note on how this was built:** I worked through the frontend with Claude (Anthropic's AI) as a sparring partner, not a code generator. I made the design decisions — layout, content, what goes where — and implemented most of it myself; Claude helped debug, suggested alternative approaches when something wasn't working, wrote some of the more repetitive CSS/JSX after we'd agreed on the direction together, and helped me implement CSS concepts (Flexbox, gradients, animations) along the way.
 
 ## Tech Stack
 
 - React
 - Vite
 - CSS (no framework)
+- PHP (contact form backend)
 
 ## Structure
 
-- `Hero` — intro, name, tagline
+- `Hero` — intro, name, tagline, logo glow
 - `Skills` — scrolling tech stack marquee
 - `Projects` — terminal-style project browser
-- `Experience` — education & work history
-- `Contact` — contact form
+- `Experience` — education & work history accordion
+- `Contact` — contact form with PHP mail backend
+- `Legal` — imprint & privacy policy
 
 ## Getting Started
 
@@ -31,4 +33,4 @@ npm run dev
 
 ## License
 
-MIT — see [LICENSE](./LICENSE).
+MIT — see [LICENSE](./LICENSE).).
