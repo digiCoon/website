@@ -138,3 +138,46 @@ input[type="submit"]:hover {
     color: var(--pink);
     background: rgba(254, 39, 253, 0.1);
 }
+
+@media (max-width: 1200px) {
+    .form-top > label {
+        min-width: 220px;
+    }
+
+    .gender-row {
+        gap: 12px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 700px) {
+    form {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .form-top {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .form-top > label {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .gender-row {
+        width: 100%;
+        justify-content: space-between;
+        gap: 8px;
+        padding: 6px;
+    }
+
+    .gender-row legend {
+        font-size: 16px;
+    }
+
+    .gender-row label {
+        font-size: 14px;
+    }
+}

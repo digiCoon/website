@@ -77,3 +77,59 @@
     font-weight: 500;
     color: var(--surface);
 }
+
+@media (max-width: 1200px) {
+    .hero-logo {
+        width: 160px;
+    }
+
+    .hero-header h1 {
+        font-size: 52px;
+    }
+
+    #job-title {
+        margin-left: 24px;
+    }
+
+    #job-title h2 {
+        font-size: 1.4rem;
+    }
+
+    .tagline p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 700px) {
+    .hero-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .hero-logo {
+        width: 120px;
+    }
+
+    .hero-header h1 {
+        font-size: 42px;
+    }
+
+    #job-title {
+        margin-left: 0;
+        text-align: left;
+        width: 100%;
+    }
+
+    #job-title h2 {
+        font-size: 1.3rem;
+    }
+
+    .tagline {
+        text-align: left;
+    }
+
+    .loading-bar {
+        margin: 5px auto 15px 0;
+    }
+}
