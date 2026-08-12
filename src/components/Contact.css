@@ -121,3 +121,20 @@ input[type="submit"]:hover {
     box-shadow: 0 0 16px var(--purple);
     transform: translateY(-2px);
 }
+
+.form-status {
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.form-status.success {
+    color: var(--cyan);
+    background: rgba(0, 242, 254, 0.1);
+}
+
+.form-status.error {
+    color: var(--pink);
+    background: rgba(254, 39, 253, 0.1);
+}
