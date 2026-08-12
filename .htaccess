@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Datei oder Ordner existiert wirklich? Dann direkt ausliefern (z.B. send-mail.php, assets/*)
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Alles andere (React-Routen) auf index.html umleiten
+  RewriteRule ^ index.html [L]
+</IfModule>

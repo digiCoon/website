@@ -2,6 +2,8 @@
 
 My personal portfolio site, built while training as a Fachinformatikerin für Anwendungsentwicklung (application developer). Built with React and Vite.
 
+🔗 **Live:** [js-ries.de](https://js-ries.de)
+
 ## Why This Project
 
 I wanted a portfolio that actually shows what I can do instead of just listing it — an interactive experience accordion, a project carousel, that kind of thing. Architecture, layout decisions, and content are mine.
@@ -14,6 +16,10 @@ I wanted a portfolio that actually shows what I can do instead of just listing i
 - Vite
 - CSS (no framework)
 - PHP (contact form backend)
+
+## Deployment
+
+Hosted on netcup Webhosting with SSL/TLS (Let's Encrypt), PHP/FastCGI for the contact form backend, and a custom `.htaccess` for React Router client-side routing.
 
 ## Structure
 
@@ -33,4 +39,4 @@ npm run dev
 
 ## License
 
-MIT — see [LICENSE](./LICENSE).).
+MIT — see [LICENSE](./LICENSE).
