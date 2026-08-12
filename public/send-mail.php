@@ -14,7 +14,7 @@ $data = json_decode(file_get_contents('php://input'), true);
 
 // Honeypot check
 if (!empty($data['trash_panda_trap'])) {
-    echo json_encode(['success' => true]); // Bot merkt nichts vom Fehlschlag
+    echo json_encode(['success' => true]); // Bot doesn't notice the failure
     exit;
 }
 
@@ -36,7 +36,7 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     exit;
 }
 
-$to = 'jries@js-ries.de';
+$to = 'kontakt@js-ries.de';
 $emailSubject = 'Portfolio-Kontakt: ' . $subject;
 $body = "Name: $name\nGeschlecht: $gender\nE-Mail: $email\n\nNachricht:\n$message";
 $headers = "From: noreply@js-ries.de\r\nReply-To: $email\r\nContent-Type: text/plain; charset=UTF-8";
