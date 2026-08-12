@@ -12,7 +12,7 @@ function ObfuscatedAddress() {
 }
 
 function ObfuscatedEmail() {
-    const user = 'jries'
+    const user = 'kontakt'
     const domain = 'js-ries.de'
     return <span>{user}@{domain}</span>
 }
