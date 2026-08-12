@@ -1,5 +1,5 @@
 import './Hero.css'
-import digicoonLogo from '../assets/digicoon-logo.png'
+import digicoonLogo from '../assets/digicoon-logo.webp'
 
 function Hero() {
     return (
