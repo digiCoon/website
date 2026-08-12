@@ -1,0 +1,30 @@
+#not-found {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 60vh;
+    padding: 100px 10%;
+    gap: 40px;
+}
+
+.not-found-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.not-found-image {
+    width: 200px;
+    height: auto;
+    filter: drop-shadow(0 0 20px var(--purple));
+}
+
+#not-found h1 {
+    font-size: 64px;
+    text-shadow: 0 0 15px var(--cyan), 0 0 25px var(--purple);
+}
+
+#not-found a {
+    color: var(--cyan);
+    text-decoration: underline;
+}

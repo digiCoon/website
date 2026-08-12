@@ -7,6 +7,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Legal from './components/Legal'
+import NotFound from './components/NotFound'
 import digicoon_single from './assets/digicoon-single.png'
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
                  </>
               } />
               <Route path="/impressum" element={<Legal />} />
+              <Route path="*" element={<NotFound />} />
           </Routes>
       </>
   )
