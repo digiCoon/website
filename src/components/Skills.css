@@ -73,3 +73,18 @@
         transform: translateX(-50%);
     }
 }
+
+@media (max-width: 700px) {
+    .skill-icon {
+        font-size: 48px;
+        margin-right: 16px;
+    }
+
+    .tooltip {
+        font-size: 18px;
+    }
+
+    .marquee {
+        padding: 16px 0;
+    }
+}
