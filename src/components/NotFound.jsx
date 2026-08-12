@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import raccoonTrash from '../assets/raccoon-trash-404.png'
+import raccoonTrash from '../assets/raccoon-trash-404.webp'
 import './NotFound.css'
 
 function NotFound() {

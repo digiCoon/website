@@ -144,5 +144,7 @@
     }
 
     .terminal-list,
-    .terminal-output = 10px;
+    .terminal-output {
+        gap: 10px;
+    }
 }

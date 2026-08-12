@@ -8,7 +8,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Legal from './components/Legal'
 import NotFound from './components/NotFound'
-import digicoon_single from './assets/digicoon-single.png'
+import digicoon_single from './assets/digicoon-single.webp'
 
 function App() {
   return (
