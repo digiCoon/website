@@ -1,7 +1,7 @@
 User-agent: *
 Crawl-delay: 10
 Allow: /
-Sitemap: https://www.js-ries.de/sitemap.xml
+Sitemap: https://digicoon.de/sitemap.xml
 
 # Block AI training crawlers
 User-agent: GPTBot

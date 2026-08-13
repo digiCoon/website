@@ -2,7 +2,7 @@
 
 My personal portfolio site, built while training as a Fachinformatikerin für Anwendungsentwicklung (application developer). Built with React and Vite.
 
-🔗 **Live:** [js-ries.de](https://js-ries.de)
+🔗 **Live:** [digicoon.de](https://digicoon.de)
 
 ## Why This Project
 
