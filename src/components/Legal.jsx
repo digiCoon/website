@@ -1,4 +1,5 @@
 import './Legal.css'
+import { Link } from 'react-router-dom'
 
 function ObfuscatedAddress() {
     const street = 'Feldstraße 21'
@@ -21,7 +22,7 @@ function Legal() {
     return (
         <section id="legal">
             <h1>Impressum & Datenschutz</h1>
-
+            <Link to="/">Zurück zur Startseite</Link>
             <h2 id="impressum">Impressum</h2>
 
             <h3>Angaben gemäß § 5 TMG und § 18 Abs. 2 MStV</h3>
@@ -337,8 +338,10 @@ function Legal() {
             <p>Diese Datenschutzerklärung wurde durch den Datenschutzerklärungs-Generator der DGD Deutsche Gesellschaft
                 für Datenschutz GmbH, die als <a href="https://dg-datenschutz.de/datenschutz-dienstleistungen/externer-datenschutzbeauftragter/">
                     Externer Datenschutzbeauftragter Dachau</a> tätig ist, in Kooperation mit dem
-                <a href="https://www.wbs.legal/it-recht/datenschutzrecht/">Anwalt für Datenschutzrecht</a>
+                <a href="https://www.wbs.legal/it-recht/datenschutzrecht/"> Anwalt für Datenschutzrecht </a>
                 Christian Solmecke erstellt.</p>
+            < br/>
+            <Link to="/">Zurück zur Startseite</Link>
         </section>
     )
 }
