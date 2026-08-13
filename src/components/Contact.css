@@ -73,37 +73,6 @@ form textarea {
     min-width: 400px;
 }
 
-.gender-row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
-    padding: 12px;
-    border: 1px solid var(--text-secondary);
-    border-radius: 6px;
-    flex-shrink: 0;
-    flex-grow: 0;
-    width: fit-content;
-}
-
-.gender-row legend {
-    padding: 0 8px;
-    min-width: unset;
-}
-
-.gender-row label {
-    display: flex;
-    align-items: center;
-    gap: 1px;
-    font-size: 14px;
-}
-
-form input[type="radio"] {
-    accent-color: var(--pink);
-    width: 16px;
-    height: 16px;
-}
-
 input[type="submit"] {
     align-self: flex-end;
     width: auto;
@@ -144,11 +113,6 @@ input[type="submit"]:hover {
     .form-top > label {
         min-width: 220px;
     }
-
-    .gender-row {
-        gap: 12px;
-        padding: 8px;
-    }
 }
 
 @media (max-width: 700px) {
@@ -165,20 +129,5 @@ input[type="submit"]:hover {
     .form-top > label {
         min-width: 0;
         width: 100%;
-    }
-
-    .gender-row {
-        width: 100%;
-        justify-content: space-between;
-        gap: 8px;
-        padding: 6px;
-    }
-
-    .gender-row legend {
-        font-size: 16px;
-    }
-
-    .gender-row label {
-        font-size: 14px;
     }
 }
