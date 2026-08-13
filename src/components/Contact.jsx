@@ -3,7 +3,6 @@ import './Contact.css'
 
 function Contact() {
     const [name, setName] = useState('')
-    const [gender, setGender] = useState('')
     const [email, setEmail] = useState('')
     const [subject, setSubject] = useState('')
     const [message, setMessage] = useState('')
@@ -23,7 +22,7 @@ function Contact() {
             const response = await fetch('/send-mail.php', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ name, gender, email, subject, message, trash_panda_trap })
+                body: JSON.stringify({ name, email, subject, message, trash_panda_trap })
             })
 
             const result = await response.json()
@@ -31,7 +30,6 @@ function Contact() {
             if (result.success) {
                 setStatus('success')
                 setName('')
-                setGender('')
                 setEmail('')
                 setSubject('')
                 setMessage('')
@@ -55,12 +53,6 @@ function Contact() {
                     <label>e-mail
                         <input type="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
                     </label>
-                    <fieldset className="gender-row">
-                        <legend>geschlecht</legend>
-                        <label><input type="radio" name="gender" value="male" checked={gender === 'male'} onChange={(e) => setGender(e.target.value)} required />m</label>
-                        <label><input type="radio" name="gender" value="female" checked={gender === 'female'} onChange={(e) => setGender(e.target.value)} required />w</label>
-                        <label><input type="radio" name="gender" value="divers" checked={gender === 'divers'} onChange={(e) => setGender(e.target.value)} required />d</label>
-                    </fieldset>
                 </div>
                 <label>betreff
                     <input type="text" name="subject" value={subject} onChange={(e) => setSubject(e.target.value)} required />

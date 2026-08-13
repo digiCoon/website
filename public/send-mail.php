@@ -19,7 +19,6 @@ if (!empty($data['trash_panda_trap'])) {
 }
 
 $name = trim($data['name'] ?? '');
-$gender = trim($data['gender'] ?? '');
 $email = trim($data['email'] ?? '');
 $subject = trim($data['subject'] ?? '');
 $message = trim($data['message'] ?? '');
@@ -38,7 +37,7 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
 $to = 'kontakt@js-ries.de';
 $emailSubject = 'Portfolio-Kontakt: ' . $subject;
-$body = "Name: $name\nGeschlecht: $gender\nE-Mail: $email\n\nNachricht:\n$message";
+$body = "Name: $name\nE-Mail: $email\n\nNachricht:\n$message";
 $headers = "From: noreply@js-ries.de\r\nReply-To: $email\r\nContent-Type: text/plain; charset=UTF-8";
 
 $sent = mail($to, $emailSubject, $body, $headers);
