@@ -1,4 +1,4 @@
-import './Legal.css'
+import '../styles/Legal.css'
 import { Link } from 'react-router-dom'
 
 function ObfuscatedAddress() {
