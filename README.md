@@ -22,13 +22,30 @@ I wanted a portfolio that actually shows what I can do instead of just listing i
 Hosted on netcup Webhosting with SSL/TLS (Let's Encrypt), PHP/FastCGI for the contact form backend, and a custom `.htaccess` for React Router client-side routing.
 
 ## Structure
-
-- `Hero` — intro, name, tagline, logo glow
-- `Skills` — scrolling tech stack marquee
-- `Projects` — terminal-style project browser
-- `Experience` — education & work history accordion
-- `Contact` — contact form with PHP mail backend
-- `Legal` — imprint & privacy policy
+```
+src/
+ ├── assets/
+ │    ├── fonts/
+ │    │    ├── Inter-Italic-VariableFont_opsz...
+ │    │    ├── Inter-VariableFont_opsz,wght...
+ │    │    └── SpaceGrotesk-VariableFont_w...
+ │    ├── digicoon-logo.webp
+ │    ├── digicoon-single.webp
+ │    └── raccoon-trash-404.webp
+ ├── components/
+ │    ├── Hero.jsx / Hero.css
+ │    ├── Skills.jsx / Skills.css
+ │    ├── Projects.jsx / Projects.css
+ │    ├── Experience.jsx / Experience.css
+ │    ├── Contact.jsx / Contact.css
+ │    ├── Legal.jsx / Legal.css
+ │    ├── Footer.jsx / Footer.css
+ │    └── NotFound.jsx / NotFound.css
+ ├── App.jsx
+ ├── App.css
+ ├── main.jsx
+ └── index.css
+```
 
 ## Getting Started
 
