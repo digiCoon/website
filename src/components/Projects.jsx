@@ -1,33 +1,32 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import '../styles/Projects.css'
 
 function Projects() {
+    const { t } = useTranslation()
+
     const projects = [
         {
             id: 'digicoon',
             name: 'digiCoon. building things',
-            description: 'portfolio-seite, gebaut mit react & vite. eigenes design, responsive, mit interaktiven elementen wie diesem terminal.',
             tech: 'react · vite · css',
             link: 'https://github.com/digiCoon/website'
         },
         {
             id: 'measy',
             name: 'measy',
-            description: 'app zum unkomplizierten verabreden mit freunden. teamprojekt aus der umschulung, meine rolle: datenbank & backend-logik.',
             tech: 'flask · sqlalchemy · sqlite · bootstrap',
             link: 'https://github.com/digiCoon/measy'
         },
         {
             id: 'todo-list',
             name: 'todo-list',
-            description: 'to-do-app mit wiederkehrenden aufgaben. aktuell phase 1 von 7 (cli fertig, persistenz & api als nächstes).',
             tech: 'python',
             link: 'https://github.com/digiCoon/todo-list'
         },
         {
             id: 'lottoziehung',
             name: 'lottoZiehung',
-            description: 'konsolenprogramm, das eine lottoziehung simuliert. 6 zahlen ziehen, vergleichen, treffer auswerten.',
             tech: 'java',
             link: 'https://github.com/digiCoon/lottoZiehung'
         }
@@ -38,7 +37,7 @@ function Projects() {
 
     return (
         <section id="projects">
-            <h2>#projekte</h2>
+            <h2>{t('projects.heading')}</h2>
             <div className="terminal">
                 <div className="terminal-titlebar">
                     <span className="terminal-path">jessica@digicoon:~/projects$</span>
@@ -67,7 +66,7 @@ function Projects() {
 
                     <div className="terminal-output">
                         <h3>{active.name}</h3>
-                        <p>{active.description}</p>
+                        <p>{t(`projects.${active.id}.description`)}</p>
                         <span className="terminal-tech">{active.tech}</span>
                     </div>
                     <div className="terminal-line terminal-link-line">

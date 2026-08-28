@@ -1,7 +1,9 @@
+import { useTranslation } from 'react-i18next'
 import '../styles/Footer.css'
 import { FaGithub, FaLinkedin, FaXing } from 'react-icons/fa'
 
 function Footer() {
+    const { t, i18n } = useTranslation()
     const year = new Date().getFullYear()
 
     return (
@@ -18,7 +20,7 @@ function Footer() {
                 </a>
             </div>
             <div className="footer-legal">
-                <a href="/impressum">impressum & datenschutz</a>
+                <a href={i18n.language === 'en' ? '/en/impressum' : '/impressum'}>{t('footer.legal')}</a>
             </div>
             <p>&copy;{year} jessica s. ries</p>
         </footer>

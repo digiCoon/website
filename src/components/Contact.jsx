@@ -1,7 +1,10 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import '../styles/Contact.css'
 
 function Contact() {
+    const { t } = useTranslation()
+
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [subject, setSubject] = useState('')
@@ -44,7 +47,7 @@ function Contact() {
 
     return (
         <section id="contact">
-            <h2>#kontakt</h2>
+            <h2>{t('contact.heading')}</h2>
             <form onSubmit={handleSubmit}>
                 <div className="form-top">
                     <label>name
@@ -54,20 +57,20 @@ function Contact() {
                         <input type="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
                     </label>
                 </div>
-                <label>betreff
+                <label>{t('contact.subject')}
                     <input type="text" name="subject" value={subject} onChange={(e) => setSubject(e.target.value)} required />
                 </label>
-                <label>nachricht
+                <label>{t('contact.message')}
                     <textarea name="message" rows="5" value={message} onChange={(e) => setMessage(e.target.value)} required></textarea>
                 </label>
                 <div style={{ display: 'none' }}>
                     <label>trash panda trap</label>
                     <input name="trash_panda_trap" tabIndex="-1" autoComplete="off" value={trash_panda_trap} onChange={(e) => setTrash_panda_trap(e.target.value)} />
                 </div>
-                <input type="submit" value={status === 'sending' ? 'wird gesendet...' : 'abschicken'} disabled={status === 'sending'} />
+                <input type="submit" value={status === 'sending' ? t('contact.sending') : t('contact.send')} disabled={status === 'sending'} />
 
-                {status === 'success' && <p className="form-status success">nachricht gesendet, danke!</p>}
-                {status === 'error' && <p className="form-status error">etwas ist schiefgelaufen, bitte versuch es später nochmal.</p>}
+                {status === 'success' && <p className="form-status success">{t('contact.success')}</p>}
+                {status === 'error' && <p className="form-status error">{t('contact.error')}</p>}
             </form>
         </section>
     )
