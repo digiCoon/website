@@ -253,10 +253,9 @@ function DatenschutzEN() {
             <p>I do not use automated decision-making or profiling.</p>
 
             <p>This privacy policy was created in German using the privacy policy generator of DGD Deutsche
-                Gesellschaft für Datenschutz GmbH, which acts as an <a href="https://dg-datenschutz.de/datenschutz-dienstleistungen/externer-datenschutzbeauftragter/">
-                    external data protection officer</a>, in cooperation with{' '}
-                <a href="https://www.wbs.legal/it-recht/datenschutzrecht/">data protection lawyer</a>
-                Christian Solmecke, and translated into English by AI & me.</p>
+                Gesellschaft für Datenschutz GmbH, which acts as an
+                <a href="https://dg-datenschutz.de/datenschutz-dienstleistungen/externer-datenschutzbeauftragter/"> external data protection officer</a>, in cooperation with{' '}
+                <a href="https://www.wbs.legal/it-recht/datenschutzrecht/"> data protection lawyer </a>Christian Solmecke, and translated into English by AI & me.</p>
         </>
     )
 }
