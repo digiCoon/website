@@ -1,4 +1,4 @@
-import './Skills.css'
+import '../styles/Skills.css'
 import { FaReact, FaNodeJs, FaPython, FaJava, FaGitAlt, FaGithub, FaLinux, FaCss3Alt } from 'react-icons/fa'
 import { SiJavascript, SiPostgresql, SiTailwindcss, SiHtml5, SiExpress, SiJetbrains, SiMysql} from 'react-icons/si'
 import { BiLogoVisualStudio } from "react-icons/bi";

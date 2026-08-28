@@ -36,6 +36,11 @@
 #job-title h2 {
     font-size: 1.5rem;
     line-height: 1.3;
+    white-space: pre-line;
+    min-height: calc(1.3em * 2);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .tagline {

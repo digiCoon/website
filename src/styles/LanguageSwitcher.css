@@ -1,0 +1,20 @@
+.lang-switch {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    display: flex;
+    gap: 6px;
+    font-size: 0.85rem;
+    z-index: 10;
+}
+
+.lang-switch a {
+    opacity: 0.5;
+    text-decoration: none;
+    color: inherit;
+}
+
+.lang-switch a.active {
+    opacity: 1;
+    font-weight: 600;
+}
