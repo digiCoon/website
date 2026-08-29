@@ -33,6 +33,10 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 html {
   background: var(--bg);
   font-size: 18px;
