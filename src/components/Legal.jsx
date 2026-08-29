@@ -26,10 +26,9 @@ function Legal() {
 
     return (
         <section id="legal">
-            <h1>Impressum & Datenschutz</h1>
-            <Link to={i18n.language === 'en' ? '/en' : '/'}>{t('common.backHome')}</Link>
+            <h1>{t('legal.heading')}</h1>
             <h2 id="impressum">Impressum</h2>
-            {i18n.language === 'en' && <p><em>This section is only available in German for legal reasons.</em></p>}
+            {i18n.language === 'en' && <p><em>This section is only available in German for legal reasons. The <a href="#privacy-policy">privacy policy</a> below is available in English.</em></p>}
 
             <h3>Angaben gemäß § 5 TMG und § 18 Abs. 2 MStV</h3>
             <p>

@@ -65,11 +65,12 @@ const resources = {
                 text: 'diese seite hat sich in den mülleimer verkrochen.',
                 link: 'zurück zur startseite',
             },
+            legal: {
+                heading: 'Impressum & Datenschutz',
+            },
             common: {
                 backHome: 'zurück zur startseite',
             },
-
-
         },
     },
     en: {
@@ -135,11 +136,12 @@ const resources = {
                 text: 'this page has crawled into the trash can.',
                 link: 'back to homepage',
             },
+            legal: {
+                heading: 'Impressum & Privacy Policy',
+            },
             common: {
                 backHome: 'back to homepage',
             },
-
-
         },
     },
 }

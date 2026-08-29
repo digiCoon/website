@@ -1,7 +1,7 @@
 function DatenschutzDE() {
     return (
         <>
-            <h2>Datenschutzerklärung</h2>
+            <h2 id="privacy-policy">Datenschutzerklärung</h2>
 
             <p>Ich freue mich sehr über Ihr Interesse an meiner Website. Datenschutz hat für mich einen besonders hohen
                 Stellenwert. Eine Nutzung meiner Internetseite ist grundsätzlich ohne jede Angabe personenbezogener Daten

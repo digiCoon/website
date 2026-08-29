@@ -1,7 +1,7 @@
 function DatenschutzEN() {
     return (
         <>
-            <h2>Privacy Policy</h2>
+            <h2 id="privacy-policy">Privacy Policy</h2>
 
             <p>I am very pleased that you are interested in my website. Privacy is of particularly high importance to me.
                 In principle, you can use my website without providing any personal data. However, if a data subject wants
