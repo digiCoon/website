@@ -3,259 +3,347 @@ function DatenschutzEN() {
         <>
             <h2 id="privacy-policy">Privacy Policy</h2>
 
-            <p>I am very pleased that you are interested in my website. Privacy is of particularly high importance to me.
-                In principle, you can use my website without providing any personal data. However, if a data subject wants
-                to use special services offered through my website, it may become necessary to process personal data. If
-                the processing of personal data is necessary and there is no statutory basis for such processing, I
-                generally obtain the consent of the data subject.</p>
+            <h3 id="m716">Preamble</h3>
+            <p>With the following privacy policy, we would like to inform you about which types of your personal data
+                (hereinafter also referred to as "data") we process, for what purposes and to what extent. This privacy
+                policy applies to all processing of personal data carried out by us, both in the context of providing
+                our services and in particular on our websites, in mobile applications and within external online
+                presences, such as our social media profiles (hereinafter collectively referred to as "online
+                services").</p>
+            <p>The terms used are not gender-specific.</p>
+            <p>As of: 3 October 2026</p>
 
-            <p>The processing of personal data, such as the name, address, e-mail address, or telephone number of a data
-                subject, is always carried out in accordance with the General Data Protection Regulation (GDPR) and the
-                country-specific data protection regulations applicable to me. By means of this privacy policy, I would
-                like to inform you about the nature, scope, and purpose of the personal data I collect, use, and process.
-                Furthermore, data subjects are informed, by means of this privacy policy, of the rights to which they are
-                entitled.</p>
-
-            <p>As the controller, I have implemented numerous technical and organizational measures to ensure the most
-                complete protection possible of personal data processed through this website. However, internet-based
-                data transmissions may in principle have security gaps, so absolute protection cannot be guaranteed. For
-                this reason, every data subject is free to transmit personal data to me by alternative means, for example
-                by telephone.</p>
-
-            <h3>1. Definitions</h3>
-            <p>This privacy policy is based on the terms used by the European legislator when adopting the General Data
-                Protection Regulation (GDPR). This privacy policy should be easy to read and understand for the general
-                public. To ensure this, I would like to explain the terminology used in advance.</p>
-            <p>In this privacy policy, I use, among others, the following terms:</p>
-
-            <h4>a) Personal data</h4>
-            <p>Personal data means any information relating to an identified or identifiable natural person ("data
-                subject"). An identifiable natural person is one who can be identified, directly or indirectly, in
-                particular by reference to an identifier such as a name, an identification number, location data, an
-                online identifier, or to one or more factors specific to the physical, physiological, genetic, mental,
-                economic, cultural, or social identity of that natural person.</p>
-
-            <h4>b) Data subject</h4>
-            <p>Data subject means any identified or identifiable natural person whose personal data is processed by the
-                controller.</p>
-
-            <h4>c) Processing</h4>
-            <p>Processing means any operation or set of operations performed on personal data, whether or not by
-                automated means, such as collection, recording, organization, structuring, storage, adaptation or
-                alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making
-                available, alignment or combination, restriction, erasure, or destruction.</p>
-
-            <h4>d) Restriction of processing</h4>
-            <p>Restriction of processing means the marking of stored personal data with the aim of limiting their
-                processing in the future.</p>
-
-            <h4>e) Profiling</h4>
-            <p>Profiling means any form of automated processing of personal data consisting of using personal data to
-                evaluate certain personal aspects relating to a natural person, in particular to analyze or predict
-                aspects concerning that natural person's performance at work, economic situation, health, personal
-                preferences, interests, reliability, behavior, location, or movements.</p>
-
-            <h4>f) Pseudonymization</h4>
-            <p>Pseudonymization means the processing of personal data in such a manner that the personal data can no
-                longer be attributed to a specific data subject without the use of additional information, provided that
-                such additional information is kept separately and is subject to technical and organizational measures
-                to ensure that the personal data are not attributed to an identified or identifiable natural person.</p>
-
-            <h4>g) Controller</h4>
-            <p>Controller means the natural or legal person, public authority, agency, or other body which, alone or
-                jointly with others, determines the purposes and means of the processing of personal data.</p>
-
-            <h4>h) Processor</h4>
-            <p>Processor means a natural or legal person, public authority, agency, or other body which processes
-                personal data on behalf of the controller.</p>
-
-            <h4>i) Recipient</h4>
-            <p>Recipient means a natural or legal person, public authority, agency, or other body to which the personal
-                data are disclosed, whether a third party or not.</p>
-
-            <h4>j) Third party</h4>
-            <p>Third party means a natural or legal person, public authority, agency, or other body other than the data
-                subject, the controller, the processor, and the persons who, under the direct authority of the
-                controller or the processor, are authorized to process personal data.</p>
-
-            <h4>k) Consent</h4>
-            <p>Consent means any freely given, specific, informed, and unambiguous indication of the data subject's
-                wishes by which they, by a statement or by a clear affirmative action, signify agreement to the
-                processing of personal data relating to them.</p>
-
-            <h3>2. Name and address of the controller</h3>
-            <p>I am the controller within the meaning of the General Data Protection Regulation, other data protection
-                laws applicable in the member states of the European Union, and other provisions related to data
-                protection. My contact details can be found in the <a href="#impressum">legal notice of this website</a>.</p>
-
-            <h3>3. Collection of general data and information</h3>
-            <p>My website collects a series of general data and information each time the website is accessed by a data
-                subject or an automated system. This general data and information is stored in the server's log files.
-                The following may be collected: (1) the browser types and versions used, (2) the operating system used by
-                the accessing system, (3) the website from which an accessing system reaches my website (referrer), (4)
-                the sub-websites accessed via an accessing system on my website, (5) the date and time of access to the
-                website, (6) an internet protocol address (IP address), (7) the internet service provider of the
-                accessing system, and (8) other similar data and information used to avert danger in the event of
-                attacks on my information technology systems.</p>
-
-            <p>When using this general data and information, I do not draw any conclusions about the data subject.
-                Rather, this information is needed to (1) correctly deliver the content of my website, (2) ensure the
-                long-term functionality of my information technology systems and the technology of my website, and (3)
-                provide law enforcement authorities with the information necessary for prosecution in the event of a
-                cyberattack. This anonymously collected data and information is therefore evaluated statistically and
-                further with the aim of increasing data protection and data security, ultimately to ensure an optimal
-                level of protection for the personal data I process. The anonymous data of the server log files is
-                stored separately from all personal data provided by a data subject.</p>
-
-            <h3>4. Contact options via the website</h3>
-            <p>Due to statutory provisions, my website contains information that enables quick electronic contact as
-                well as direct communication with me, which also includes a general address for electronic mail
-                (e-mail address). If a data subject contacts me by e-mail or through a contact form, the personal data
-                transmitted by the data subject is automatically stored. Such personal data voluntarily transmitted by a
-                data subject is stored for the purpose of processing or contacting the data subject. This personal data
-                is not disclosed to third parties.</p>
-
-            <h3>5. Routine erasure and blocking of personal data</h3>
-            <p>I process and store personal data of the data subject only for the period necessary to achieve the
-                purpose of storage, or as provided for by the European legislator or another legislator in laws or
-                regulations to which I am subject.</p>
-
-            <p>If the purpose of storage ceases to apply, or if a storage period prescribed by the European legislator
-                or another competent legislator expires, the personal data is routinely blocked or erased in accordance
-                with statutory requirements.</p>
-
-            <h3>6. Rights of the data subject</h3>
-
-            <h4>a) Right of confirmation</h4>
-            <p>Every data subject has the right, granted by the European legislator, to obtain confirmation from me as
-                to whether personal data concerning them is being processed. Should a data subject wish to exercise this
-                right of confirmation, they may contact me at any time.</p>
-
-            <h4>b) Right of access</h4>
-            <p>Every data subject affected by the processing of personal data has the right, granted by the European
-                legislator, to obtain from me, free of charge, information about their stored personal data and a copy
-                of this information at any time. Furthermore, the European legislator has granted the data subject
-                access to the following information:</p>
-            <ul>
-                <li>the purposes of the processing</li>
-                <li>the categories of personal data being processed</li>
-                <li>the recipients or categories of recipients to whom the personal data have been or will be disclosed</li>
-                <li>where possible, the envisaged period for which the personal data will be stored, or, if not
-                    possible, the criteria used to determine that period</li>
-                <li>the existence of the right to request rectification or erasure of personal data, or restriction of
-                    processing, or to object to such processing</li>
-                <li>the existence of the right to lodge a complaint with a supervisory authority</li>
-                <li>where the personal data is not collected from the data subject: all available information about
-                    the source of the data</li>
-                <li>the existence of automated decision-making, including profiling, pursuant to Art. 22(1) and (4)
-                    GDPR, and meaningful information about the logic involved, as well as the significance and
-                    envisaged consequences of such processing for the data subject</li>
+            <h3>Table of Contents</h3>
+            <ul className="index">
+                <li><a className="index-link" href="#m716">Preamble</a></li>
+                <li><a className="index-link" href="#m3">Controller</a></li>
+                <li><a className="index-link" href="#mOverview">Overview of Processing Operations</a></li>
+                <li><a className="index-link" href="#m2427">Relevant Legal Bases</a></li>
+                <li><a className="index-link" href="#m27">Security Measures</a></li>
+                <li><a className="index-link" href="#m12">General Information on Data Retention and Deletion</a></li>
+                <li><a className="index-link" href="#m10">Rights of Data Subjects</a></li>
+                <li><a className="index-link" href="#m225">Provision of the Online Services and Web Hosting</a></li>
+                <li><a className="index-link" href="#m182">Contact and Inquiry Management</a></li>
+                <li><a className="index-link" href="#m15">Changes and Updates</a></li>
+                <li><a className="index-link" href="#m42">Definitions</a></li>
             </ul>
-            <p>Furthermore, the data subject has the right to obtain information as to whether personal data has been
-                transferred to a third country or to an international organization. Should a data subject wish to
-                exercise this right of access, they may contact me at any time.</p>
 
-            <h4>c) Right to rectification</h4>
-            <p>Every data subject affected by the processing of personal data has the right, granted by the European
-                legislator, to obtain the immediate rectification of inaccurate personal data concerning them.
-                Furthermore, the data subject has the right to request the completion of incomplete personal data.
-                Should a data subject wish to exercise this right to rectification, they may contact me at any time.</p>
+            <h3 id="m3">Controller</h3>
+            <p>I am the controller within the meaning of the General Data Protection Regulation. My name, address and
+                contact details can be found in the <a href="#impressum">legal notice of this website</a>.</p>
 
-            <h4>d) Right to erasure ("right to be forgotten")</h4>
-            <p>Every data subject affected by the processing of personal data has the right, granted by the European
-                legislator, to obtain from me the immediate erasure of personal data concerning them, provided one of
-                the following grounds applies and insofar as the processing is not necessary:</p>
+            <h3 id="mOverview">Overview of Processing Operations</h3>
+            <p>The following overview summarizes the types of data processed and the purposes of their processing and
+                refers to the data subjects concerned.</p>
+
+            <h4>Types of Data Processed</h4>
             <ul>
-                <li>The personal data was collected or otherwise processed for purposes for which it is no longer
-                    necessary.</li>
-                <li>The data subject withdraws consent on which the processing was based, and there is no other legal
-                    basis for the processing.</li>
-                <li>The data subject objects to the processing, and there are no overriding legitimate grounds for the
-                    processing.</li>
-                <li>The personal data was processed unlawfully.</li>
-                <li>Erasure of the personal data is required to comply with a legal obligation.</li>
-                <li>The personal data was collected in relation to information society services offered pursuant to
-                    Art. 8(1) GDPR.</li>
+                <li>Contact data.</li>
+                <li>Content data.</li>
+                <li>Usage data.</li>
+                <li>Meta, communication and process data.</li>
+                <li>Log data.</li>
             </ul>
-            <p>If one of the above-mentioned reasons applies, the data subject may contact me at any time. I will
-                ensure that the erasure request is complied with immediately.</p>
 
-            <h4>e) Right to restriction of processing</h4>
-            <p>Every data subject affected by the processing of personal data has the right, granted by the European
-                legislator, to obtain from me restriction of processing where one of the following conditions applies:</p>
+            <h4>Categories of Data Subjects</h4>
             <ul>
-                <li>The accuracy of the personal data is contested by the data subject, for a period enabling me to
-                    verify the accuracy of the personal data.</li>
-                <li>The processing is unlawful, the data subject opposes the erasure of the personal data, and
-                    requests instead the restriction of its use.</li>
-                <li>I no longer need the personal data for the purposes of processing, but the data subject requires it
-                    for the establishment, exercise, or defense of legal claims.</li>
-                <li>The data subject has objected to processing, pending verification as to whether my legitimate
-                    grounds override those of the data subject.</li>
+                <li>Communication partners.</li>
+                <li>Users.</li>
             </ul>
-            <p>If one of the above-mentioned conditions applies, the data subject may contact me at any time.</p>
 
-            <h4>f) Right to data portability</h4>
-            <p>Every data subject affected by the processing of personal data has the right, granted by the European
-                legislator, to receive personal data concerning them, which was provided by the data subject to me, in
-                a structured, commonly used, and machine-readable format. They also have the right to transmit this
-                data to another controller, provided the processing is based on consent or a contract and is carried
-                out by automated means. To assert this right, the data subject may contact me at any time.</p>
+            <h4>Purposes of Processing</h4>
+            <ul>
+                <li>Communication.</li>
+                <li>Security measures.</li>
+                <li>Organizational and administrative procedures.</li>
+                <li>Feedback.</li>
+                <li>Provision of our online services and usability.</li>
+                <li>Information technology infrastructure.</li>
+            </ul>
 
-            <h4>g) Right to object</h4>
-            <p>Every data subject affected by the processing of personal data has the right, granted by the European
-                legislator, to object at any time, on grounds relating to their particular situation, to the processing
-                of personal data concerning them which is based on Art. 6(1)(e) or (f) GDPR. This also applies to
-                profiling based on these provisions.</p>
-            <p>Following an objection, I will no longer process the personal data unless I can demonstrate compelling
-                legitimate grounds for the processing which override the interests, rights, and freedoms of the data
-                subject, or the processing serves the establishment, exercise, or defense of legal claims. To exercise
-                the right to object, the data subject may contact me directly.</p>
+            <h3 id="m2427">Relevant Legal Bases</h3>
+            <p><strong>Relevant legal bases under the GDPR: </strong>Below you will find an overview of the legal bases
+                of the GDPR on which we process personal data. Please note that, in addition to the provisions of the
+                GDPR, national data protection regulations may apply in your or our country of residence or
+                establishment. Should more specific legal bases be relevant in individual cases, we will inform you of
+                these in this privacy policy.</p>
+            <ul>
+                <li><strong>Performance of a contract and pre-contractual inquiries (Art. 6(1)(b) GDPR)</strong> -
+                    Processing is necessary for the performance of a contract to which the data subject is party or in
+                    order to take steps at the request of the data subject prior to entering into a contract.</li>
+                <li><strong>Legitimate interests (Art. 6(1)(f) GDPR)</strong> - Processing is necessary for the
+                    purposes of the legitimate interests pursued by the controller or by a third party, except where
+                    such interests are overridden by the interests or fundamental rights and freedoms of the data
+                    subject which require protection of personal data.</li>
+            </ul>
+            <p><strong>National data protection regulations in Germany: </strong>In addition to the data protection
+                provisions of the GDPR, national data protection regulations apply in Germany. These include in
+                particular the Federal Data Protection Act (Bundesdatenschutzgesetz – BDSG). The BDSG contains in
+                particular special provisions on the right of access, the right to erasure, the right to object, the
+                processing of special categories of personal data, processing for other purposes, and transmission as
+                well as automated individual decision-making, including profiling. Furthermore, the data protection
+                laws of the individual federal states may apply.</p>
 
-            <h4>h) Automated individual decision-making, including profiling</h4>
-            <p>Every data subject affected by the processing of personal data has the right, granted by the European
-                legislator, not to be subject to a decision based solely on automated processing, including profiling,
-                which produces legal effects concerning them or similarly significantly affects them. Should the data
-                subject wish to assert rights relating to automated decisions, they may contact me at any time.</p>
+            <h3 id="m27">Security Measures</h3>
+            <p>In accordance with the legal requirements and taking into account the state of the art, the costs of
+                implementation and the nature, scope, context and purposes of processing as well as the varying
+                likelihood and severity of the risk to the rights and freedoms of natural persons, we implement
+                appropriate technical and organizational measures to ensure a level of security appropriate to the
+                risk.</p>
+            <p>These measures include, in particular, safeguarding the confidentiality, integrity and availability of
+                data by controlling physical and electronic access to the data as well as access to, input, disclosure,
+                assurance of availability and separation of the data. Furthermore, we have established procedures to
+                ensure the exercise of data subjects' rights, the deletion of data and responses to threats to the
+                data. We also take the protection of personal data into account as early as the development or
+                selection of hardware, software and procedures, in accordance with the principle of data protection by
+                design and by default.</p>
+            <p>Shortening of IP addresses: Where IP addresses are processed by us or by the service providers and
+                technologies used, and the processing of a complete IP address is not necessary, the IP address is
+                shortened (also referred to as "IP masking"). In this process, the last two digits or the last part of
+                the IP address after a dot are removed or replaced by placeholders. Shortening the IP address is
+                intended to prevent or substantially hinder the identification of a person by means of their IP
+                address.</p>
+            <p>Securing online connections with TLS/SSL encryption technology (HTTPS): To protect the data of users
+                transmitted via our online services against unauthorized access, we use TLS/SSL encryption technology.
+                Secure Sockets Layer (SSL) and Transport Layer Security (TLS) are the cornerstones of secure data
+                transmission on the internet. These technologies encrypt the information transmitted between the
+                website or app and the user's browser (or between two servers), thereby protecting the data against
+                unauthorized access. TLS, as the more advanced and secure version of SSL, ensures that all data
+                transmissions meet the highest security standards. If a website is secured by an SSL/TLS certificate,
+                this is indicated by HTTPS in the URL. This serves as an indicator to users that their data is
+                transmitted securely and in encrypted form.</p>
 
-            <h4>i) Right to withdraw data protection consent</h4>
-            <p>Every data subject affected by the processing of personal data has the right, granted by the European
-                legislator, to withdraw consent to the processing of personal data at any time. Should the data subject
-                wish to assert their right to withdraw consent, they may contact me at any time.</p>
+            <h3 id="m12">General Information on Data Retention and Deletion</h3>
+            <p>We delete personal data that we process in accordance with the statutory provisions as soon as the
+                underlying consents are withdrawn or there are no further legal grounds for processing. This applies to
+                cases in which the original purpose of processing no longer applies or the data is no longer required.
+                Exceptions to this rule apply where statutory obligations or special interests require longer
+                retention or archiving of the data.</p>
+            <p>In particular, data that must be retained for commercial or tax law reasons, or whose storage is
+                necessary for legal proceedings or to protect the rights of other natural or legal persons, must be
+                archived accordingly.</p>
+            <p>Our data protection notices contain additional information on the retention and deletion of data that
+                applies specifically to certain processing operations.</p>
+            <p>Where there are several specifications regarding the retention period or deletion deadlines for a data
+                item, the longest period always prevails. Data that is no longer retained for its originally intended
+                purpose but due to legal requirements or other reasons is processed exclusively for the reasons that
+                justify its retention.</p>
+            <p>Retention and deletion of data: The following general periods apply to retention and archiving under
+                German law:</p>
+            <ul>
+                <li>10 years - Retention period for books and records, annual financial statements, inventories,
+                    management reports, opening balance sheets and the work instructions and other organizational
+                    documents required to understand them (Section 147(1) No. 1 in conjunction with (3) AO, Section
+                    257(1) No. 1 in conjunction with (4) HGB).</li>
+                <li>8 years - Accounting vouchers, such as invoices and expense receipts (Section 147(1) Nos. 4 and 4a in
+                    conjunction with (3) sentence 1 AO, Section 14b(1) UStG and Section 257(1) No. 4 in conjunction with
+                    (4) HGB).</li>
+                <li>6 years - Other business documents: received commercial or business letters, copies of sent
+                    commercial or business letters, other documents insofar as they are relevant for taxation, e.g.
+                    hourly wage slips, operating accounting sheets, calculation documents, price markings, as well as
+                    payroll documents, insofar as they are not already accounting vouchers, and till receipts (Section
+                    147(1) Nos. 2, 3, 5 in conjunction with (3) AO, Section 257(1) Nos. 2 and 3 in conjunction with (4)
+                    HGB).</li>
+                <li>3 years - Data required to consider potential warranty and damage claims or similar contractual
+                    claims and rights, and to process related inquiries, based on previous business experience and
+                    customary industry practice, is stored for the duration of the regular statutory limitation period
+                    of three years (Sections 195, 199 BGB).</li>
+            </ul>
+            <p>Commencement of periods at the end of the year: If a period does not expressly begin on a specific date
+                and amounts to at least one year, it automatically begins at the end of the calendar year in which the
+                event triggering the period occurred. In the case of ongoing contractual relationships in the context of
+                which data is stored, the event triggering the period is the time at which the termination or other
+                ending of the legal relationship takes effect.</p>
 
-            <h3>7. Legal basis for the processing</h3>
-            <p>Art. 6(1)(a) GDPR serves as the legal basis for processing operations for which I obtain consent for a
-                specific purpose. If the processing of personal data is necessary for the performance of a contract to
-                which the data subject is a party, the processing is based on Art. 6(1)(b) GDPR. The same applies to
-                processing operations necessary for pre-contractual measures. If I am subject to a legal obligation
-                which requires the processing of personal data, such as for the fulfilment of tax obligations, the
-                processing is based on Art. 6(1)(c) GDPR. In rare cases, the processing of personal data may be
-                necessary to protect the vital interests of the data subject or of another natural person; in such
-                cases, the processing is based on Art. 6(1)(d) GDPR. Finally, processing operations may be based on
-                Art. 6(1)(f) GDPR, where processing is necessary to protect a legitimate interest, provided this does
-                not override the interests, fundamental rights, and freedoms of the data subject.</p>
+            <h3 id="m10">Rights of Data Subjects</h3>
+            <p>Rights of data subjects under the GDPR: As a data subject, you are entitled to various rights under the
+                GDPR, which arise in particular from Art. 15 to 21 GDPR:</p>
+            <ul>
+                <li><strong>Right to object: You have the right to object at any time, on grounds relating to your
+                    particular situation, to the processing of personal data concerning you which is based on Art.
+                    6(1)(e) or (f) GDPR; this also applies to profiling based on these provisions. Where personal data
+                    concerning you is processed for direct marketing purposes, you have the right to object at any time
+                    to the processing of personal data concerning you for such marketing; this also applies to
+                    profiling to the extent that it is related to such direct marketing.</strong></li>
+                <li><strong>Right to withdraw consent:</strong> You have the right to withdraw any consent you have
+                    given at any time.</li>
+                <li><strong>Right of access:</strong> You have the right to obtain confirmation as to whether data
+                    concerning you is being processed and to access this data as well as further information and a copy
+                    of the data in accordance with the statutory provisions.</li>
+                <li><strong>Right to rectification:</strong> In accordance with the statutory provisions, you have the
+                    right to request the completion of data concerning you or the rectification of inaccurate data
+                    concerning you.</li>
+                <li><strong>Right to erasure and restriction of processing:</strong> In accordance with the statutory
+                    provisions, you have the right to request that data concerning you be erased without delay or,
+                    alternatively, in accordance with the statutory provisions, to request restriction of the processing
+                    of the data.</li>
+                <li><strong>Right to data portability:</strong> You have the right to receive data concerning you that
+                    you have provided to us in a structured, commonly used and machine-readable format in accordance
+                    with the statutory provisions, or to request its transmission to another controller.</li>
+                <li><strong>Right to lodge a complaint with a supervisory authority:</strong> Without prejudice to any
+                    other administrative or judicial remedy, you have the right to lodge a complaint with a data
+                    protection supervisory authority if you consider that the processing of your personal data
+                    infringes the GDPR. The complaint may be lodged in particular with a supervisory authority in the
+                    Member State of your habitual residence, place of work or place of the alleged infringement.</li>
+            </ul>
 
-            <h3>8. Legitimate interests pursued by me or a third party</h3>
-            <p>Where processing of personal data is based on Art. 6(1)(f) GDPR, my legitimate interest is the operation
-                and maintenance of this portfolio website as well as the processing of incoming contact requests.</p>
+            <h3 id="m225">Provision of the Online Services and Web Hosting</h3>
+            <p>We process users' data in order to be able to provide them with our online services. For this purpose,
+                we process the user's IP address, which is necessary to transmit the content and functions of our
+                online services to the user's browser or device.</p>
+            <ul className="m-elements">
+                <li><strong>Types of data processed:</strong> Usage data (e.g. page views and time spent, click paths,
+                    intensity and frequency of use, device types and operating systems used, interactions with content
+                    and functions); meta, communication and process data (e.g. IP addresses, time information,
+                    identification numbers, persons involved); log data (e.g. log files relating to logins or the
+                    retrieval of data or access times); content data (e.g. text or image messages and posts as well as
+                    related information, such as authorship or time of creation).</li>
+                <li><strong>Data subjects:</strong> Users (e.g. website visitors, users of online services).</li>
+                <li><strong>Purposes of processing and legitimate interests:</strong> Provision of our online services
+                    and usability; information technology infrastructure (operation and provision of information
+                    systems and technical devices (computers, servers, etc.)); security measures.</li>
+                <li><strong>Retention and deletion:</strong> Deletion in accordance with the information in the section
+                    "General Information on Data Retention and Deletion".</li>
+                <li><strong>Legal bases:</strong> Legitimate interests (Art. 6(1)(f) GDPR).</li>
+            </ul>
+            <p><strong>Further information on processing operations, procedures and services:</strong></p>
+            <ul className="m-elements">
+                <li><strong>Provision of the online services on rented storage space: </strong>To provide our online
+                    services, we use storage space, computing capacity and software that we rent or otherwise obtain
+                    from a corresponding server provider (also referred to as a "web host");{' '}
+                    <strong>Legal bases:</strong> Legitimate interests (Art. 6(1)(f) GDPR).</li>
+                <li><strong>Collection of access data and log files: </strong>Access to our online services is logged
+                    in the form of so-called "server log files". Server log files may include the address and name of
+                    the web pages and files accessed, the date and time of access, the amount of data transferred, a
+                    notification of successful retrieval, the browser type and version, the user's operating system, the
+                    referrer URL (the previously visited page) and, as a rule, IP addresses and the requesting provider.
+                    Server log files may be used, on the one hand, for security purposes, e.g. to prevent server
+                    overload (in particular in the case of abusive attacks, so-called DDoS attacks), and, on the other
+                    hand, to ensure server utilization and stability; <strong>Legal bases:</strong> Legitimate interests
+                    (Art. 6(1)(f) GDPR). <strong>Deletion of data:</strong> Log file information is stored for a
+                    maximum of 30 days and then deleted or anonymized. Data whose further retention is required for
+                    evidentiary purposes is excluded from deletion until the respective incident has been finally
+                    resolved.</li>
+                <li><strong>Email sending and hosting: </strong>The web hosting services we use also include the
+                    sending, receiving and storage of emails. For these purposes, the addresses of recipients and
+                    senders as well as further information relating to the sending of emails (e.g. the providers
+                    involved) and the contents of the respective emails are processed. The aforementioned data may also
+                    be processed for the purpose of detecting spam. Please note that emails on the internet are
+                    generally not sent in encrypted form. As a rule, emails are encrypted in transit, but (unless a
+                    so-called end-to-end encryption method is used) not on the servers from which they are sent and
+                    received. We therefore cannot accept any responsibility for the transmission path of emails between
+                    the sender and receipt on our server; <strong>Legal bases:</strong> Legitimate interests (Art.
+                    6(1)(f) GDPR).</li>
+                <li><strong>netcup: </strong>Services in the field of providing information technology infrastructure
+                    and related services (e.g. storage space and/or computing capacity);{' '}
+                    <strong>Service provider:</strong> netcup GmbH, Emmy-Noether-Straße 10, 76131 Karlsruhe, Germany;{' '}
+                    <strong>Legal bases:</strong> Legitimate interests (Art. 6(1)(f) GDPR);{' '}
+                    <strong>Website:</strong>{' '}
+                    <a href="https://www.netcup.com/de" target="_blank" rel="noopener noreferrer">https://www.netcup.com/de</a>;{' '}
+                    <strong>Privacy policy:</strong>{' '}
+                    <a href="https://www.netcup.com/de/kontakt/datenschutzerklaerung" target="_blank" rel="noopener noreferrer">https://www.netcup.com/de/kontakt/datenschutzerklaerung</a>.{' '}
+                    <strong>Data processing agreement:</strong>{' '}
+                    <a href="https://www.netcup.com/de/helpcenter/dokumentation/general/avv" target="_blank" rel="noopener noreferrer">https://www.netcup.com/de/helpcenter/dokumentation/general/avv</a>.</li>
+            </ul>
 
-            <h3>9. Duration for which personal data is stored</h3>
-            <p>The criterion for the duration of storage of personal data is the applicable statutory retention period.
-                After expiry of that period, the corresponding data is routinely erased, provided it is no longer
-                required to fulfil a request.</p>
+            <h3 id="m182">Contact and Inquiry Management</h3>
+            <p>When contacting us (e.g. by post, contact form, email, telephone or via social media) and in the context
+                of existing user and business relationships, the information provided by the inquiring persons is
+                processed to the extent necessary to respond to the contact inquiries and any requested measures.</p>
+            <ul className="m-elements">
+                <li><strong>Types of data processed:</strong> Contact data (e.g. postal and email addresses or telephone
+                    numbers); content data (e.g. text or image messages and posts as well as related information, such
+                    as authorship or time of creation); meta, communication and process data (e.g. IP addresses, time
+                    information, identification numbers, persons involved).</li>
+                <li><strong>Data subjects:</strong> Communication partners.</li>
+                <li><strong>Purposes of processing and legitimate interests:</strong> Communication; organizational and
+                    administrative procedures; feedback (e.g. collecting feedback via online form); provision of our
+                    online services and usability.</li>
+                <li><strong>Retention and deletion:</strong> Deletion in accordance with the information in the section
+                    "General Information on Data Retention and Deletion".</li>
+                <li><strong>Legal bases:</strong> Legitimate interests (Art. 6(1)(f) GDPR); performance of a contract
+                    and pre-contractual inquiries (Art. 6(1)(b) GDPR).</li>
+            </ul>
+            <p><strong>Further information on processing operations, procedures and services:</strong></p>
+            <ul className="m-elements">
+                <li><strong>Contact form: </strong>When you contact us via our contact form, by email or through other
+                    means of communication, we process the personal data transmitted to us in order to respond to and
+                    handle the respective matter. This usually includes information such as name, contact information
+                    and, where applicable, further information provided to us that is necessary for appropriate
+                    handling. We use this data exclusively for the stated purpose of contact and communication;{' '}
+                    <strong>Legal bases:</strong> Performance of a contract and pre-contractual inquiries (Art. 6(1)(b)
+                    GDPR), legitimate interests (Art. 6(1)(f) GDPR).</li>
+            </ul>
 
-            <h3>10. Statutory or contractual requirements for the provision of personal data</h3>
-            <p>The provision of personal data is neither legally nor contractually required, unless stated otherwise.
-                Provision is necessary to process a request submitted via the contact form. Failure to provide personal
-                data would mean that the request cannot be processed.</p>
+            <h3 id="m15">Changes and Updates</h3>
+            <p>We ask you to regularly inform yourself about the content of our privacy policy. We will adapt the
+                privacy policy as soon as changes to the data processing we carry out make this necessary. We will
+                inform you as soon as the changes require an act of cooperation on your part (e.g. consent) or other
+                individual notification.</p>
+            <p>Where we provide addresses and contact information of companies and organizations in this privacy
+                policy, please note that addresses may change over time and please verify the information before
+                making contact.</p>
 
-            <h3>11. Existence of automated decision-making</h3>
-            <p>I do not use automated decision-making or profiling.</p>
+            <h3 id="m42">Definitions</h3>
+            <p>This section provides an overview of the terms used in this privacy policy. Where terms are defined by
+                law, their legal definitions apply. The following explanations are primarily intended to aid
+                understanding.</p>
+            <ul className="glossary">
+                <li><strong>Content data:</strong> Content data comprises information generated in the course of
+                    creating, editing and publishing content of all kinds. This category of data may include texts,
+                    images, videos, audio files and other multimedia content published on various platforms and media.
+                    Content data is not limited to the actual content itself but also includes metadata that provides
+                    information about the content, such as tags, descriptions, author information and publication
+                    dates.</li>
+                <li><strong>Contact data:</strong> Contact data is essential information that enables communication
+                    with persons or organizations. It includes, among other things, telephone numbers, postal addresses
+                    and email addresses, as well as means of communication such as social media handles and instant
+                    messaging identifiers.</li>
+                <li><strong>Meta, communication and process data:</strong> Meta, communication and process data are
+                    categories containing information about how data is processed, transmitted and managed. Metadata,
+                    also known as data about data, includes information describing the context, origin and structure of
+                    other data. It may include information on file size, creation date, the author of a document and
+                    change histories. Communication data captures the exchange of information between users via various
+                    channels, such as email traffic, call logs, messages on social networks and chat histories,
+                    including the persons involved, timestamps and transmission paths. Process data describes the
+                    processes and workflows within systems or organizations, including workflow documentation, logs of
+                    transactions and activities, and audit logs used to track and review operations.</li>
+                <li><strong>Usage data:</strong> Usage data refers to information that records how users interact with
+                    digital products, services or platforms. This data covers a wide range of information showing how
+                    users use applications, which features they prefer, how long they stay on certain pages and which
+                    paths they take through an application. Usage data may also include frequency of use, timestamps of
+                    activities, IP addresses, device information and location data. It is particularly valuable for
+                    analyzing user behavior, optimizing user experiences, personalizing content and improving products
+                    or services. In addition, usage data plays a crucial role in identifying trends, preferences and
+                    potential problem areas within digital offerings.</li>
+                <li><strong>Personal data:</strong> "Personal data" means any information relating to an identified or
+                    identifiable natural person (hereinafter "data subject"); an identifiable natural person is one who
+                    can be identified, directly or indirectly, in particular by reference to an identifier such as a
+                    name, an identification number, location data, an online identifier (e.g. a cookie) or to one or
+                    more factors specific to the physical, physiological, genetic, mental, economic, cultural or social
+                    identity of that natural person.</li>
+                <li><strong>Log data:</strong> Log data is information about events or activities that have been logged
+                    in a system or network. This data typically contains information such as timestamps, IP addresses,
+                    user actions, error messages and other details about the use or operation of a system. Log data is
+                    often used to analyze system problems, for security monitoring or to create performance reports.</li>
+                <li><strong>Controller:</strong> "Controller" means the natural or legal person, public authority,
+                    agency or other body which, alone or jointly with others, determines the purposes and means of the
+                    processing of personal data.</li>
+                <li><strong>Processing:</strong> "Processing" means any operation or set of operations performed on
+                    personal data, whether or not by automated means. The term is broad and covers virtually any
+                    handling of data, be it collection, analysis, storage, transmission or deletion.</li>
+            </ul>
 
-            <p>This privacy policy was created in German using the privacy policy generator of DGD Deutsche
-                Gesellschaft für Datenschutz GmbH, which acts as an
-                <a href="https://dg-datenschutz.de/datenschutz-dienstleistungen/externer-datenschutzbeauftragter/"> external data protection officer</a>, in cooperation with{' '}
-                <a href="https://www.wbs.legal/it-recht/datenschutzrecht/"> data protection lawyer </a>Christian Solmecke, and translated into English by AI & me.</p>
+            <p>This is an English translation of the German privacy policy. In the event of any discrepancies, the
+                German version shall prevail.</p>
+
+            <p className="seal">
+                <a href="https://datenschutz-generator.de/"
+                   title="Legal text by Dr. Schwenke - click for more information."
+                   target="_blank" rel="noopener noreferrer nofollow">
+                    Erstellt mit kostenlosem Datenschutz-Generator.de von Dr. Thomas Schwenke
+                </a>
+            </p>
         </>
     )
 }

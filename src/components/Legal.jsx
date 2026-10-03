@@ -5,8 +5,8 @@ import DatenschutzDE from './legal/DatenschutzDE'
 import DatenschutzEN from './legal/DatenschutzEN'
 
 function ObfuscatedAddress() {
-    const street = 'Feldstraße 21'
-    const city = '12207 Berlin'
+    const street = ['Feld', 'straße', ' 21'].join('')
+    const city = ['122', '07', ' Berlin'].join('')
     return (
         <>
             {street}<br />
@@ -17,21 +17,23 @@ function ObfuscatedAddress() {
 
 function ObfuscatedEmail() {
     const user = 'kontakt'
-    const domain = 'js-ries.de'
+    const domain = ['js-ries', 'de'].join('.')
     return <span>{user}@{domain}</span>
 }
 
 function Legal() {
     const { t, i18n } = useTranslation()
+    const homePath = i18n.language === 'en' ? '/en' : '/'
 
     return (
         <section id="legal">
             <h1>{t('legal.heading')}</h1>
-            <Link to={i18n.language === 'en' ? '/en' : '/'}>{t('common.backHome')}</Link>
+            <Link to={homePath}>{t('common.backHome')}</Link>
+
             <h2 id="impressum">Impressum</h2>
             {i18n.language === 'en' && <p><em>This section is only available in German for legal reasons. The <a href="#privacy-policy">privacy policy</a> below is available in English.</em></p>}
 
-            <h3>Angaben gemäß § 5 TMG und § 18 Abs. 2 MStV</h3>
+            <h3 id="m46">Diensteanbieter</h3>
             <p>
                 Jessica S. Ries<br />
                 <ObfuscatedAddress />
@@ -39,33 +41,38 @@ function Legal() {
                 Deutschland
             </p>
 
-            <h3>Kontakt</h3>
+            <h3 id="m56">Kontaktmöglichkeiten</h3>
             <p>
-                E-Mail: <ObfuscatedEmail />
+                E-Mail-Adresse: <ObfuscatedEmail />
+            </p>
+            <p>
+                Kontaktformular: <Link to={homePath}>auf der Startseite</Link>
             </p>
 
-            <h3>Haftungsausschluss</h3>
-            <h4>Haftung für Inhalte</h4>
-            <p>Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit
-                und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden. Als Diensteanbieterin bin ich gemäß §
-                7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis
-                10 TMG bin ich jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen
-                oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</p>
+            <h3 id="m5234">Vorbehalt der Nutzung für Text und Data Mining</h3>
+            <p>Vorbehalt der Nutzung für Text und Data Mining: Der Inhaber dieser Website gestattet die Nutzung oder das
+                Herunterladen von Inhalten dieser Website durch Dritte für die Entwicklung, das Training oder den Betrieb
+                von künstlicher Intelligenz oder anderen maschinellen Lernsystemen ("Text und Data Mining") ausschließlich
+                mit ausdrücklicher schriftlicher Zustimmung des Inhabers. Ohne eine solche Zustimmung ist es untersagt, die
+                Inhalte für Text und Data Mining zu verwenden. Dies gilt auch, wenn auf der Website keine Meta-Angaben
+                vorhanden sind, die entsprechende Verfahren aussperren, und selbst dann, wenn Bots, die den Zweck haben,
+                die Website zu Zwecken des Text und Data Mining auszulesen, nicht ausgesperrt werden.</p>
+            <p>Dieser Nutzungsvorbehalt ist zusätzlich in maschinenlesbarer Form in der{' '}
+                <a href="/robots.txt" target="_blank" rel="noopener noreferrer">robots.txt</a> dieser Website
+                hinterlegt (§ 44b Abs. 3 UrhG).</p>
 
-            <h4>Haftung für Links</h4>
-            <p>Diese Website enthält gegebenenfalls Links zu externen Websites Dritter, auf deren Inhalte kein Einfluss
-                besteht. Deshalb kann für diese fremden Inhalte auch keine Gewähr übernommen werden. Für die Inhalte der
-                verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.</p>
-
-            <h4>Urheberrecht</h4>
-            <p>Die durch mich erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die
-                Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des
-                Urheberrechtes bedürfen der schriftlichen Zustimmung der jeweiligen Autorin bzw. des jeweiligen Erstellers.</p>
+            <p className="seal">
+                <a href="https://datenschutz-generator.de/"
+                   title="Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken."
+                   target="_blank" rel="noopener noreferrer nofollow">
+                    Erstellt mit kostenlosem Datenschutz-Generator.de von Dr. Thomas Schwenke
+                </a>
+            </p>
 
             {i18n.language === 'en' ? <DatenschutzEN /> : <DatenschutzDE />}
 
-            < br/>
-            <Link to={i18n.language === 'en' ? '/en' : '/'}>{t('common.backHome')}</Link>
+            <br />
+            <Link to={homePath}>{t('common.backHome')}</Link>
         </section>
     )
 }
